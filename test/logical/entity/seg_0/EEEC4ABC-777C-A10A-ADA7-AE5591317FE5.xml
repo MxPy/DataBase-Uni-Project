@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEEC4ABC-777C-A10A-ADA7-AE5591317FE5" name="Kierowcy">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:01:56 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_licencji" id="BEBF1401-8726-4671-40C0-5D02CECE833B">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:02:03 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imie" id="3579E5E2-C370-4C0C-E440-6FD77B440711">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:02:16 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwisko" id="3A3AEAA1-875B-96E6-8D57-E8DAA3F5C5E1">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:02:33 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="punkty" id="5DF94279-1A1E-47A2-3927-F3C1A8860CF7">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:02:49 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_zesonu" id="3028DAF7-7777-D87A-8C8B-59E7004F0913">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:04:22 UTC</createdTime>
+<generatorID>D88E385A-05BF-0DB0-B644-0457879392E5</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<referedAttribute>046BC34E-35C6-9A6C-1F57-DE2D4DBC5F0E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="7E8BFCD1-00D1-9968-B84F-65A7E52B2D0B">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:08:17 UTC</createdTime>
+<generatorID>5D46F447-0E4B-DC54-7F09-A4765FB19827</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<referedAttribute>1C8FE2B2-E10C-0750-CCEC-AE212C68C4C8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6B4C774A-B770-E7B6-A62E-20AB26A87219" name="Kierowcy PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:02:08 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BEBF1401-8726-4671-40C0-5D02CECE833B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mistrz_konstruktorow" directorySegmentName="seg_0" id="1E8EAAC4-95BD-17F1-338C-290E5DF8B257">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 14:58:59 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<sourcePk>9D931CAD-A361-AA78-9533-F52D86E260B5</sourcePk>
+<targetPk>91D18174-D371-B902-3952-929B38CDBDD7</targetPk>
+<identifying>false</identifying>
+<nameOnSource>ma mistrza konstruktorow</nameOnSource>
+<nameOnTarget>zdobył mistrzostwo konstruktorow</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A7434CC9-6624-44D4-80DF-B6C13AFE20D3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6459CC6E-34AB-AD89-B6FB-A73493F3DC31</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

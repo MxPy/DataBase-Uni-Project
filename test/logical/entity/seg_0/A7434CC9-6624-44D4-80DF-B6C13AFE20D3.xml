@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7434CC9-6624-44D4-80DF-B6C13AFE20D3" name="Sezon">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 14:56:34 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_zesonu" id="046BC34E-35C6-9A6C-1F57-DE2D4DBC5F0E">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 14:56:42 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rozpoczecie" id="2ADAC9B7-6F26-E05C-667F-3B719D8406B1">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 14:57:07 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zakonczenie" id="55A9A160-7B49-64C8-DF36-9428AEDAAEF7">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 14:57:17 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="709F8102-9690-7ED9-F9B5-24754B17FA8B">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:07:33 UTC</createdTime>
+<generatorID>1E8EAAC4-95BD-17F1-338C-290E5DF8B257</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<referedAttribute>1C8FE2B2-E10C-0750-CCEC-AE212C68C4C8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_licencji" id="6879740D-DB24-496B-6CD1-CA1804CB5979">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:07:48 UTC</createdTime>
+<generatorID>D88E385A-05BF-0DB0-B644-0457879392E5</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<referedAttribute>BEBF1401-8726-4671-40C0-5D02CECE833B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D931CAD-A361-AA78-9533-F52D86E260B5" name="Sezon PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 14:56:50 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>046BC34E-35C6-9A6C-1F57-DE2D4DBC5F0E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

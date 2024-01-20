@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kierowca_rezerwowy" directorySegmentName="seg_0" id="19CEF1C4-217A-D2F7-A8B5-58DA51D7F98C">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:16:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<sourcePk>91D18174-D371-B902-3952-929B38CDBDD7</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>posiada kierowce rezerwowego</nameOnSource>
+<nameOnTarget>jest kierowca rezerwowym</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6459CC6E-34AB-AD89-B6FB-A73493F3DC31</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A8D6166E-CCBF-06CD-39D3-54B27D6C8ED9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

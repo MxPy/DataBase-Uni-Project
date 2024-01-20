@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mistrzostwo_kierowcow" directorySegmentName="seg_0" id="D88E385A-05BF-0DB0-B644-0457879392E5">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:04:22 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<sourcePk>9D931CAD-A361-AA78-9533-F52D86E260B5</sourcePk>
+<targetPk>6B4C774A-B770-E7B6-A62E-20AB26A87219</targetPk>
+<identifying>false</identifying>
+<nameOnSource>ma mistrza kierwcow</nameOnSource>
+<nameOnTarget>zdobył mistrzostwo kierowcow</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A7434CC9-6624-44D4-80DF-B6C13AFE20D3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>EEEC4ABC-777C-A10A-ADA7-AE5591317FE5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
