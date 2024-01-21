@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B3278A3-850B-94A5-C51F-AD413A825918" name="Trener">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 19:22:44 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id trenera" id="612E4799-73EC-383B-C758-7C8E3869AF1B">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 19:22:44 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="4D4C1448-6FE4-3F8A-276C-779BF05883EA">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 19:22:44 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="8E1F19E4-AB69-9CCB-34F6-9CD96243180B">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 19:22:44 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zespoł nr zespolu" id="DEFB454A-ED63-94DA-12B4-C0C14BE76C4F">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 22:30:51 UTC</createdTime>
+<generatorID>020E8D2F-26E1-574F-BE29-22F35A4CF80A</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EDC5AB2D-F47B-8334-496C-3403F3BAFE41" name="Trener_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 19:22:44 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>612E4799-73EC-383B-C758-7C8E3869AF1B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

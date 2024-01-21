@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EF63CD0-99B8-E416-89AE-8095F913E459" name="Dział_rozwojowy">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>4B2D85C8-0F92-93A2-926B-007018B6F891</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="03493955-6254-2FCF-9F41-DA5004A95D5A">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>03C46EB5-4E35-2A68-D6E9-B370C8E10189</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zespol_Nazwa" id="6047DCA8-D985-C8D9-60DF-B286AF66FDF8">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>09B22E20-8DFB-5A3C-6913-3D01A5C6902C</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AEF03A2-1798-2E8D-B618-0EF920AB664C" referredColumn="5B4BF1A5-F01A-322E-84E2-D3C1D617FA23"/>
+</associations>
+</Column>
+<Column name="Dyrektor_Nazwisko" id="63EB2F89-EFB8-3FCC-E93C-C691AA146EBD">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>7BA7CF87-E876-8909-14C5-B75414249968</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37EE66CD-A461-B0EC-0227-F73815341B02" referredColumn="91DCCAF0-436B-FB6E-CE2D-DFD699EEEE4C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9875D027-6C78-8249-44F9-56AFFD817352" name="Dział_rozwojowy_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>0BEB75DD-0169-AF57-2F0C-99B02CF989B0</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03493955-6254-2FCF-9F41-DA5004A95D5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65854E4E-CB79-E281-3D0D-8BE9DCA5A6A5" name="Dział_rozwojowy__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C48AAC3C-2417-988C-9F61-31804BA9E1C7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6047DCA8-D985-C8D9-60DF-B286AF66FDF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FBB8752-5564-7911-14FD-AF11C152CD73" name="Dział_rozwojowy__IDXv1">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B16673EE-0530-05B2-3C99-CF1FB87DC900</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="63EB2F89-EFB8-3FCC-E93C-C691AA146EBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A7CCDB0-0213-7822-67AF-5E6113B54486" name="Dział_rozwojowy_Zespol_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>C48AAC3C-2417-988C-9F61-31804BA9E1C7</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6047DCA8-D985-C8D9-60DF-B286AF66FDF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14F8335C-35D3-66F0-4039-F0D42D208C5A" name="Dział_rozwojowy_Dyrektor_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>B16673EE-0530-05B2-3C99-CF1FB87DC900</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63EB2F89-EFB8-3FCC-E93C-C691AA146EBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

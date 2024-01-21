@@ -63,20 +63,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nr_zesonu" id="3028DAF7-7777-D87A-8C8B-59E7004F0913">
-<createdBy>PC</createdBy>
-<createdTime>2024-01-20 15:04:22 UTC</createdTime>
-<generatorID>D88E385A-05BF-0DB0-B644-0457879392E5</generatorID>
-<ownerDesignName>test</ownerDesignName>
-<engineerTo>
-<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
-</engineerTo>
-<referedAttribute>046BC34E-35C6-9A6C-1F57-DE2D4DBC5F0E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Nazwa" id="7E8BFCD1-00D1-9968-B84F-65A7E52B2D0B">
 <createdBy>PC</createdBy>
 <createdTime>2024-01-20 15:08:17 UTC</createdTime>
@@ -97,8 +83,9 @@
 <createdBy>PC</createdBy>
 <createdTime>2024-01-20 15:02:08 UTC</createdTime>
 <ownerDesignName>test</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

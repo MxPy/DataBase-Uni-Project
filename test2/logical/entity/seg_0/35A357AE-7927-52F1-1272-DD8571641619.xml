@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35A357AE-7927-52F1-1272-DD8571641619" name="Klub">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 18:58:36 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nazwa" id="8E63D6F2-8240-2A80-CAB4-89D380DD9B5C">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 18:58:41 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stadion nazwa" id="D008A8C2-A9DE-7985-406B-A6E57044D55B">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 22:30:51 UTC</createdTime>
+<generatorID>C09D0E83-9982-655F-A980-3036CF417837</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D235482-BA39-A00D-819B-C984F8444317" name="Klub PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 18:58:55 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E63D6F2-8240-2A80-CAB4-89D380DD9B5C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

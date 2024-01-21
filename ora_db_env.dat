@@ -1,0 +1,273 @@
+CREATE TABLE centrum_treaningowe (
+    id_centrum  NUMBER NOT NULL,
+    adres       VARCHAR2(100) NOT NULL,
+    ilosc_boisk INTEGER NOT NULL,
+    klub_nazwa  VARCHAR2(100) NOT NULL
+);
+
+ALTER TABLE centrum_treaningowe ADD CONSTRAINT centrum_treaningowe_pk PRIMARY KEY ( id_centrum,
+                                                                                    klub_nazwa );
+
+CREATE TABLE infgormacje_pucharowe (
+    nazwa                  VARCHAR2(100) NOT NULL,
+    zajete_miejsce         INTEGER NOT NULL,
+    nagroda_pieniezna      FLOAT,
+    informacje_sezonowe_nr NUMBER NOT NULL
+);
+
+ALTER TABLE infgormacje_pucharowe ADD CONSTRAINT infgormacje_pucharowe_pk PRIMARY KEY ( nazwa,
+                                                                                        informacje_sezonowe_nr );
+
+CREATE TABLE informacj_ligowe (
+    zajete_miejsce         INTEGER NOT NULL,
+    zdobyte_punkty         INTEGER NOT NULL,
+    informacje_sezonowe_nr NUMBER NOT NULL
+);
+
+CREATE UNIQUE INDEX informacj_ligowe__idx ON
+    informacj_ligowe (
+        informacje_sezonowe_nr
+    ASC );
+
+CREATE TABLE informacje_sezonowe (
+    nr         NUMBER NOT NULL,
+    poczatek   DATE NOT NULL,
+    koniec     DATE NOT NULL,
+    klub_nazwa VARCHAR2(100) NOT NULL
+);
+
+CREATE UNIQUE INDEX informacje_sezonowe__idx ON
+    informacje_sezonowe (
+        klub_nazwa
+    ASC );
+
+ALTER TABLE informacje_sezonowe ADD CONSTRAINT informacje_sezonowe_pk PRIMARY KEY ( nr );
+
+CREATE TABLE klub (
+    nazwa         VARCHAR2(100) NOT NULL,
+    stadion_nazwa VARCHAR2(100) NOT NULL
+);
+
+CREATE UNIQUE INDEX klub__idx ON
+    klub (
+        stadion_nazwa
+    ASC );
+
+ALTER TABLE klub ADD CONSTRAINT klub_pk PRIMARY KEY ( nazwa );
+
+CREATE TABLE kontrakt (
+    id_kontraktu               NUMBER NOT NULL,
+    stawka_roczna_netto        INTEGER NOT NULL,
+    stawka_roczna_brutto       INTEGER NOT NULL,
+    poczatek                   DATE NOT NULL,
+    koniec                     DATE NOT NULL,
+    zawodnik_pseudonim         VARCHAR2(100) NOT NULL,
+    zawodnik_zespoł_nr_zespolu NUMBER NOT NULL,
+    klub_nazwa                 VARCHAR2(100) NOT NULL
+);
+
+CREATE UNIQUE INDEX kontrakt__idx ON
+    kontrakt (
+        zawodnik_pseudonim
+    ASC,
+        zawodnik_zespoł_nr_zespolu
+    ASC );
+
+ALTER TABLE kontrakt ADD CONSTRAINT kontrakt_pk PRIMARY KEY ( id_kontraktu,
+                                                              klub_nazwa );
+
+CREATE TABLE manager (
+    id_managera                NUMBER NOT NULL,
+    nazwisko                   VARCHAR2(100) NOT NULL,
+    imie                       INTEGER NOT NULL,
+    zawodnik_pseudonim         VARCHAR2(100) NOT NULL,
+    zawodnik_zespoł_nr_zespolu NUMBER NOT NULL
+);
+
+CREATE UNIQUE INDEX manager__idx ON
+    manager (
+        zawodnik_pseudonim
+    ASC,
+        zawodnik_zespoł_nr_zespolu
+    ASC );
+
+ALTER TABLE manager ADD CONSTRAINT manager_pk PRIMARY KEY ( id_managera );
+
+CREATE TABLE nagroda (
+    id_nagrody        NUMBER NOT NULL,
+    nazwa             VARCHAR2(100) NOT NULL,
+    nagroda_pieniezna FLOAT
+);
+
+ALTER TABLE nagroda ADD CONSTRAINT nagroda_pk PRIMARY KEY ( id_nagrody );
+
+CREATE TABLE nagroda_klubowa (
+    id_nagrody NUMBER NOT NULL,
+    klub_nazwa VARCHAR2(100) NOT NULL
+);
+
+ALTER TABLE nagroda_klubowa ADD CONSTRAINT nagroda_klubowa_pk PRIMARY KEY ( id_nagrody );
+
+ALTER TABLE nagroda_klubowa ADD CONSTRAINT nagroda_klubowa_pkv1 UNIQUE ( klub_nazwa );
+
+CREATE TABLE nagroda_personalna (
+    id_nagrody                 NUMBER NOT NULL,
+    zawodnik_pseudonim         VARCHAR2(100) NOT NULL,
+    zawodnik_zespoł_nr_zespolu NUMBER NOT NULL
+);
+
+ALTER TABLE nagroda_personalna ADD CONSTRAINT nagroda_personalna_pk PRIMARY KEY ( id_nagrody );
+
+ALTER TABLE nagroda_personalna ADD CONSTRAINT nagroda_personalna_pkv1 UNIQUE ( zawodnik_pseudonim,
+                                                                               zawodnik_zespoł_nr_zespolu );
+
+CREATE TABLE profil_rynkowy (
+    id_profilu                 NUMBER NOT NULL,
+    wartosc_rynkowa            FLOAT NOT NULL,
+    zawodnik_pseudonim         VARCHAR2(100) NOT NULL,
+    zawodnik_zespoł_nr_zespolu NUMBER NOT NULL
+);
+
+CREATE UNIQUE INDEX profil_rynkowy__idx ON
+    profil_rynkowy (
+        zawodnik_pseudonim
+    ASC,
+        zawodnik_zespoł_nr_zespolu
+    ASC );
+
+ALTER TABLE profil_rynkowy ADD CONSTRAINT profil_rynkowy_pk PRIMARY KEY ( id_profilu );
+
+CREATE TABLE sponsor (
+    nazwa      VARCHAR2(100 CHAR) NOT NULL,
+    klub_nazwa VARCHAR2(100) NOT NULL
+);
+
+ALTER TABLE sponsor ADD CONSTRAINT sponsor_pk PRIMARY KEY ( nazwa,
+                                                            klub_nazwa );
+
+CREATE TABLE stadion (
+    nazwa        VARCHAR2(100) NOT NULL,
+    adres        VARCHAR2(100) NOT NULL,
+    ilosc_miejsc INTEGER NOT NULL,
+    klub_nazwa   VARCHAR2(100) NOT NULL
+);
+
+CREATE UNIQUE INDEX stadion__idx ON
+    stadion (
+        klub_nazwa
+    ASC );
+
+ALTER TABLE stadion ADD CONSTRAINT stadion_pk PRIMARY KEY ( nazwa );
+
+CREATE TABLE trener (
+    id_trenera        NUMBER NOT NULL,
+    nazwisko          VARCHAR2(100) NOT NULL,
+    imie              INTEGER NOT NULL,
+    zespoł_nr_zespolu NUMBER NOT NULL
+);
+
+CREATE UNIQUE INDEX trener__idx ON
+    trener (
+        zespoł_nr_zespolu
+    ASC );
+
+ALTER TABLE trener ADD CONSTRAINT trener_pk PRIMARY KEY ( id_trenera );
+
+CREATE TABLE zawodnik (
+    pseudonim                 VARCHAR2(100) NOT NULL,
+    imie                      VARCHAR2(100) NOT NULL,
+    nazwisko                  VARCHAR2(100) NOT NULL,
+    zespoł_nr_zespolu         NUMBER NOT NULL,
+    profil_rynkowy_id_profilu NUMBER NOT NULL,
+    manager_id_managera       NUMBER NOT NULL,
+    kontrakt_id_kontraktu     NUMBER NOT NULL,
+    kontrakt_klub_nazwa       VARCHAR2(100) NOT NULL
+);
+
+CREATE UNIQUE INDEX zawodnik__idx ON
+    zawodnik (
+        profil_rynkowy_id_profilu
+    ASC );
+
+CREATE UNIQUE INDEX zawodnik__idxv1 ON
+    zawodnik (
+        manager_id_managera
+    ASC );
+
+CREATE UNIQUE INDEX zawodnik__idxv2 ON
+    zawodnik (
+        kontrakt_id_kontraktu
+    ASC,
+        kontrakt_klub_nazwa
+    ASC );
+
+ALTER TABLE zawodnik ADD CONSTRAINT zawodnik_pk PRIMARY KEY ( pseudonim,
+                                                              zespoł_nr_zespolu );
+
+CREATE TABLE zespoł (
+    nr_zespolu        NUMBER NOT NULL,
+    klub_nazwa        VARCHAR2(100) NOT NULL,
+    trener_id_trenera NUMBER NOT NULL
+);
+
+CREATE UNIQUE INDEX zespoł__idx ON
+    zespoł (
+        trener_id_trenera
+    ASC );
+
+ALTER TABLE zespoł ADD CONSTRAINT zespoł_pk PRIMARY KEY ( nr_zespolu );
+
+ALTER TABLE centrum_treaningowe
+    ADD CONSTRAINT centrum_treaningowe_klub_fk FOREIGN KEY ( klub_nazwa )
+        REFERENCES klub ( nazwa );
+
+--  ERROR: FK name length exceeds maximum allowed length(30) 
+ALTER TABLE infgormacje_pucharowe
+    ADD CONSTRAINT infgormacje_pucharowe_informacje_sezonowe_fk FOREIGN KEY ( informacje_sezonowe_nr )
+        REFERENCES informacje_sezonowe ( nr );
+
+ALTER TABLE informacje_sezonowe
+    ADD CONSTRAINT informacje_sezonowe_klub_fk FOREIGN KEY ( klub_nazwa )
+        REFERENCES klub ( nazwa );
+
+ALTER TABLE klub
+    ADD CONSTRAINT klub_stadion_fk FOREIGN KEY ( stadion_nazwa )
+        REFERENCES stadion ( nazwa );
+
+ALTER TABLE kontrakt
+    ADD CONSTRAINT kontrakt_klub_fk FOREIGN KEY ( klub_nazwa )
+        REFERENCES klub ( nazwa );
+
+ALTER TABLE nagroda_klubowa
+    ADD CONSTRAINT nagroda_klubowa_klub_fk FOREIGN KEY ( klub_nazwa )
+        REFERENCES klub ( nazwa );
+
+ALTER TABLE nagroda_klubowa
+    ADD CONSTRAINT nagroda_klubowa_nagroda_fk FOREIGN KEY ( id_nagrody )
+        REFERENCES nagroda ( id_nagrody );
+
+ALTER TABLE nagroda_personalna
+    ADD CONSTRAINT nagroda_personalna_nagroda_fk FOREIGN KEY ( id_nagrody )
+        REFERENCES nagroda ( id_nagrody );
+
+ALTER TABLE nagroda_personalna
+    ADD CONSTRAINT nagroda_personalna_zawodnik_fk FOREIGN KEY ( zawodnik_pseudonim,
+                                                                zawodnik_zespoł_nr_zespolu )
+        REFERENCES zawodnik ( pseudonim,
+                              zespoł_nr_zespolu );
+
+ALTER TABLE sponsor
+    ADD CONSTRAINT sponsor_klub_fk FOREIGN KEY ( klub_nazwa )
+        REFERENCES klub ( nazwa );
+
+ALTER TABLE zawodnik
+    ADD CONSTRAINT zawodnik_zespoł_fk FOREIGN KEY ( zespoł_nr_zespolu )
+        REFERENCES zespoł ( nr_zespolu );
+
+ALTER TABLE zespoł
+    ADD CONSTRAINT zespoł_klub_fk FOREIGN KEY ( klub_nazwa )
+        REFERENCES klub ( nazwa );
+
+--  ERROR: No Discriminator Column found in Arc FKArc_1 - constraint trigger for Arc cannot be generated 
+
+--  ERROR: No Discriminator Column found in Arc FKArc_1 - constraint trigger for Arc cannot be generated

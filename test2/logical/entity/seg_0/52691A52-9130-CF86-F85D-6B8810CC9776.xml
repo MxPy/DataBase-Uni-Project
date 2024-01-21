@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52691A52-9130-CF86-F85D-6B8810CC9776" name="Nagroda">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 19:05:23 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id nagrody" id="221060D3-8D2F-3A1F-C416-0A23AC9E5785">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 19:05:40 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="BE6E1B50-41B8-D563-F0B1-593A0D2058D5">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 19:26:31 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nagroda pieniezna" id="24811D5F-7A64-E83E-D17B-C0E6D3050EDB">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 19:26:56 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7E8578C-2E19-EBB3-1E76-D84904BD982E" name="Nagroda PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 19:05:59 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>221060D3-8D2F-3A1F-C416-0A23AC9E5785</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

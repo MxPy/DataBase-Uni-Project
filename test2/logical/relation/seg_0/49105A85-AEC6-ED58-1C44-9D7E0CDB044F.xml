@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Centrum Treaningowe Klub FK" directorySegmentName="seg_0" id="49105A85-AEC6-ED58-1C44-9D7E0CDB044F">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:25:18 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<sourcePk>8D235482-BA39-A00D-819B-C984F8444317</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>posiada</nameOnSource>
+<nameOnTarget>jest posiadny</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>35A357AE-7927-52F1-1272-DD8571641619</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EFDF14EB-1464-D797-4AAE-8EA3F0F56F3B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

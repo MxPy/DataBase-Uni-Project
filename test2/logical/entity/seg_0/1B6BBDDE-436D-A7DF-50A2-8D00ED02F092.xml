@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B6BBDDE-436D-A7DF-50A2-8D00ED02F092" name="Manager">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 18:53:39 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id managera" id="F036C6B3-878D-3E72-623B-1C316C8B611D">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 18:53:44 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="DA08A562-AD35-4725-E90A-319E85D19352">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 19:22:00 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="1EAE86BD-1DD3-5CFD-2E2B-B53306CECB4F">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 19:22:16 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zawodnik Pseudonim" id="A54C3CC8-1287-F3B8-0BAE-1B50C77DBE3C">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 22:24:14 UTC</createdTime>
+<generatorID>DCBC7BDD-C932-D60F-AFC7-99037CD333AD</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr zespolu" id="868D6EF2-5495-B99F-9CCD-FED714AF31D8">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 22:24:14 UTC</createdTime>
+<generatorID>3A4B9138-8DCA-0F03-74C7-2EE528953EB0</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB919772-EC09-0E15-83D6-E0838989CBCA" name="Manager PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 18:53:54 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F036C6B3-878D-3E72-623B-1C316C8B611D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

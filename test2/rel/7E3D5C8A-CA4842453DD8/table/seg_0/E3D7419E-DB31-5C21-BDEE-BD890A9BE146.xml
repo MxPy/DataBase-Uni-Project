@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3D7419E-DB31-5C21-BDEE-BD890A9BE146" name="Trener">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>2B3278A3-850B-94A5-C51F-AD413A825918</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_trenera" id="3E7805D1-50E0-DBBE-E6DF-D19567FBBB10">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>612E4799-73EC-383B-C758-7C8E3869AF1B</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="30662241-5E38-A0D2-EE35-B61C551E8813">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>4D4C1448-6FE4-3F8A-276C-779BF05883EA</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="10BEA953-AEAB-68BD-09B1-80F3B0C64381">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>8E1F19E4-AB69-9CCB-34F6-9CD96243180B</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zespoł_nr_zespolu" id="DEC5644A-2D30-447F-F378-81C3D6573BCD">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>5C819794-9B1A-7CB4-3CAE-E1D1729CFB93</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F0A12F6-1C1F-BE5F-E9D8-251EA39D2DF5" referredColumn="D9C4A360-2037-3C12-F9DF-428A7824935E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AF2CF69-FE37-5BF9-35FB-51B838CF0C8A" name="Trener_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>EDC5AB2D-F47B-8334-496C-3403F3BAFE41</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E7805D1-50E0-DBBE-E6DF-D19567FBBB10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A74C32AE-17FF-8640-FD7C-FD11243B9B1B" name="Trener__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>120B1CF0-E251-F407-8C78-63C9E1118ADC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DEC5644A-2D30-447F-F378-81C3D6573BCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D22219E9-8DF6-0B52-C9AE-E66CD4AC4802" name="Trener_Zespoł_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>120B1CF0-E251-F407-8C78-63C9E1118ADC</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEC5644A-2D30-447F-F378-81C3D6573BCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

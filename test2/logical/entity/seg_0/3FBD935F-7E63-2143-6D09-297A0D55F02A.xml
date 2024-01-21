@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FBD935F-7E63-2143-6D09-297A0D55F02A" name="pucharowe">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 21:03:45 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nazwa" id="6154E59B-D644-DB3C-6E30-A1BA559E3891">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 21:03:56 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zajete miejsce" id="B5C8F801-D47F-73A1-E308-2F4F33446FA9">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 21:37:31 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Info Sezonowe nr" id="4DE6DF1C-6909-EA31-1DF2-354CB84A3620">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 21:38:26 UTC</createdTime>
+<generatorID>2E915C94-DD60-09B5-EEFD-60B861F6EB19</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<referedAttribute>418D05B8-8177-E471-9DAC-E8F900340957</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E845947-3D16-33B1-DA9E-488871850EE6" name="pucharowe PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 21:04:49 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6154E59B-D644-DB3C-6E30-A1BA559E3891</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="033E2A51-9122-D2C2-34C4-5A9E451FEA3C" name="podwozie">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>A1EC13ED-9E51-9274-C4D6-1CB9C3B4A52A</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_podwozia" id="1CFB3442-1796-AA6F-E4D4-7349BD7D48E5">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>B36B884B-8B67-4013-4C6C-08220DCB4720</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Doostawca_podwozia_Nazwa" id="0B76CFB9-36CF-7720-FEA8-D938C436D11C">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>9A3E4D32-50F5-115E-E611-2AAA7EBB16FC</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E4734C8-BD87-2E2A-6DC2-ACD34739F7AC" referredColumn="D900FC6C-DED1-745A-D831-2F56B9ABA210"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27842BE1-ABDE-58F8-6CBB-1D240CE0A219" name="podwozie_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>E9340F22-537C-F38C-E732-07E7F9E6DA56</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CFB3442-1796-AA6F-E4D4-7349BD7D48E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31A5B77E-CE5E-C22E-B1AE-2B3911088460" name="podwozie__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5B225EE1-37A7-D7C4-EC0C-13FCF8461A49</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0B76CFB9-36CF-7720-FEA8-D938C436D11C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B18E381E-8E26-F30D-4E94-2759C7CFA2D3" name="podwozie_Doostawca_podwozia_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>5B225EE1-37A7-D7C4-EC0C-13FCF8461A49</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B76CFB9-36CF-7720-FEA8-D938C436D11C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

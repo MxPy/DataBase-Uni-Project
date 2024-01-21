@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E47C1DA5-C2C9-1CC4-A000-7A9C4D4C98B2" name="Dyrektor">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:14:05 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nazwisko" id="0BA65F51-33E6-8832-25C1-3B60CC81E18A">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:14:40 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="EE338D9A-BFBA-A872-0C8A-3A9B198C26F7">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:15:17 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="C1B50B9C-871A-2337-7566-5F092A1D826A">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:15:59 UTC</createdTime>
+<generatorID>B52CF814-EC4C-295D-D309-0698474772CE</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<referedAttribute>1C8FE2B2-E10C-0750-CCEC-AE212C68C4C8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa1" id="E90B7F5A-7FD7-05D6-234C-018AFCEA8CA2">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:16:22 UTC</createdTime>
+<generatorID>B16673EE-0530-05B2-3C99-CF1FB87DC900</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<referedAttribute>03C46EB5-4E35-2A68-D6E9-B370C8E10189</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa2" id="D358F4BD-BC5E-560F-B474-42B7C2F38A06">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:16:39 UTC</createdTime>
+<generatorID>C8DAF1EA-B55A-EB01-EA5B-32F520A12805</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<referedAttribute>FD0034CC-7B8E-E4C5-BD7D-C9FE26A8E912</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa3" id="114FE62E-0BC2-FFB2-595B-3FACEFCB70FF">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:17:02 UTC</createdTime>
+<generatorID>B03714A1-510D-1FD8-D7C4-FDD65D553E90</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<referedAttribute>88202D2F-B17D-6B72-81A9-040EEFC0E808</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa4" id="FB322EE5-29C1-8909-397D-870991E4800D">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:17:23 UTC</createdTime>
+<generatorID>2FEE831C-B566-0316-3C94-D43F48448671</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<referedAttribute>6E69F93F-C992-FF8B-8BB6-EAA400808539</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa5" id="B0D072D4-9F0A-ACE3-1974-B979D1A3066F">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:17:37 UTC</createdTime>
+<generatorID>89C8B138-6343-0B6A-4984-674B0B7C25E8</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<referedAttribute>A3FD9BC3-E06A-E891-6DCE-275685D1991F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FF8C6821-F973-4E2E-B30D-4B2EFE43CDF9" name="Dyrektor PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:14:49 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0BA65F51-33E6-8832-25C1-3B60CC81E18A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

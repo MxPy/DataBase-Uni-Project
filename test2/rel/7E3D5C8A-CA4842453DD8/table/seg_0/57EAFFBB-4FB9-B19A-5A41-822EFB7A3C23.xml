@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57EAFFBB-4FB9-B19A-5A41-822EFB7A3C23" name="Stadion">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>F89CBF52-657A-44DD-6FE7-3F2C61895CCA</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazwa" id="DB22EF53-67E2-7C47-43EB-2B0EB91A9908">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>91C82C41-9F0D-A1E9-5189-DE73C5C84E04</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adres" id="956C8013-87C6-A9CF-D934-F52FD8B43A6E">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>22E173E7-1A39-8C22-ED50-2DF178A6BBF9</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ilosc_miejsc" id="AB2BE8C5-8612-78AE-520C-1E2D15DA5D43">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>F409CDC2-16DF-54BD-D683-899C132AC951</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klub_Nazwa" id="09D82BFC-1C5F-88BA-0147-3A2D9F579496">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>F86197AC-2C7C-47A8-001B-07FE442F6FB4</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="254D7DE3-10AF-B2E0-BD79-53D40F9FFDC0" referredColumn="4FC6B503-9E5F-76F1-3E3F-4F10454C7B29"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E6A0A29-7AE0-AF26-5DE1-8237348A785D" name="Stadion_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>83C493B6-907A-0239-B47B-D42E7CCDB645</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB22EF53-67E2-7C47-43EB-2B0EB91A9908"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9E4EBA1-EEFA-5047-7035-041E820A84C5" name="Stadion__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>22AD745C-F018-D024-8E39-7934E30B7FA2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="09D82BFC-1C5F-88BA-0147-3A2D9F579496"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32B59BE8-E332-69AB-3B81-476CAFA913BD" name="Stadion_Klub_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>22AD745C-F018-D024-8E39-7934E30B7FA2</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09D82BFC-1C5F-88BA-0147-3A2D9F579496"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

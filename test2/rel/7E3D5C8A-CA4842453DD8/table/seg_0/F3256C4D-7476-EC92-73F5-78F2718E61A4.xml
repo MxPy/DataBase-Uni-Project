@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3256C4D-7476-EC92-73F5-78F2718E61A4" name="Profil_Rynkowy">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>4CEE86AF-3574-7221-BB2C-5E6FF00B4DBF</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_profilu" id="D949E839-22F9-EBC8-15BE-B3DBE01DFECB">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>965F5008-5EFC-ECB0-B74C-785C67D6C51E</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wartosc_rynkowa" id="06E50AB0-6296-331B-C372-614D5E080947">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>32ADCE82-3775-0AEE-5B8B-7A8340B0E520</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zawodnik_Pseudonim" id="B485A2F1-259A-65A5-A53C-FC175E917F66">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>82305A40-9A9C-3090-5081-E9A9494053E1</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7FF5ED1-AFB8-2009-AF58-336E644E71E2" referredColumn="F9932360-6C6F-8DFA-6366-ED99842EFF3F"/>
+</associations>
+</Column>
+<Column name="Zawodnik_Zespoł_nr_zespolu" id="686559A7-90C7-FC95-6FBD-C3A37134A50E">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>A6E23C6D-1632-D218-4E94-5E6F8B127404</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7FF5ED1-AFB8-2009-AF58-336E644E71E2" referredColumn="B89CCBDD-92E7-5AC9-25D4-31BC7E882C3D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DF4B2EC-4475-ADFE-C359-9466B94172C6" name="Profil_Rynkowy_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>0D3B2E9F-5656-5DAB-D49F-1ADC6632D602</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D949E839-22F9-EBC8-15BE-B3DBE01DFECB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="162C6B7D-D4D9-B1AD-DAA3-F17FEBE498C7" name="Profil_Rynkowy__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0EB06645-5EB6-E615-704E-11D37DCA912A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B485A2F1-259A-65A5-A53C-FC175E917F66"/>
+<colUsage columnID="686559A7-90C7-FC95-6FBD-C3A37134A50E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B021C059-3AB2-8CF6-E23F-5DE8CD67B28A" name="Profil_Rynkowy_Zawodnik_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>0EB06645-5EB6-E615-704E-11D37DCA912A</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B485A2F1-259A-65A5-A53C-FC175E917F66"/>
+<colUsage columnID="686559A7-90C7-FC95-6FBD-C3A37134A50E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="031F0D7B-1C35-6ADF-D8B0-406F57D760E5" name="Nagroda">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>52691A52-9130-CF86-F85D-6B8810CC9776</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nagrody" id="1D09B87C-CC01-6C42-7D77-12325748287D">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>221060D3-8D2F-3A1F-C416-0A23AC9E5785</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="61733529-D132-5857-4553-CC0F984C352A">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>BE6E1B50-41B8-D563-F0B1-593A0D2058D5</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nagroda_pieniezna" id="0BF59FBB-3098-1D41-7A14-D611D42E363F">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>24811D5F-7A64-E83E-D17B-C0E6D3050EDB</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3067761-6AEA-70CB-C9D5-0E4BAF6B3D5D" name="Nagroda_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>D7E8578C-2E19-EBB3-1E76-D84904BD982E</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D09B87C-CC01-6C42-7D77-12325748287D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

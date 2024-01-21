@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E14176E1-20DA-D213-F939-D2CDC0AC5139" name="Informacje_Sezonowe">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>2AC3F5DA-C3F3-2036-2206-D196BC04775C</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_sezonu" id="53A33F94-CE12-7C71-62FD-225C12FCA57A">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>418D05B8-8177-E471-9DAC-E8F900340957</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poczatek" id="F3E3943F-9339-6487-250D-2530FBA15716">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>190CC4D9-C185-1AE5-9919-8003B2823284</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="koniec" id="55B5011F-32C6-C372-58C8-F3EF406370F4">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>457A0836-6C79-04D3-C4C1-96B36FA9C646</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klub_Nazwa" id="E4C1A563-BF9C-C310-5365-ADF3EB03DA63">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>48C57FB5-F20C-01BE-72FE-6BC5781A5A03</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3F6BCC8-659D-09F4-C482-5677BDD193A4" referredColumn="4FC6B503-9E5F-76F1-3E3F-4F10454C7B29"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A417F871-5A1D-FF27-0C91-1E257AB04EED" name="Informacje_Sezonowe_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>188D9CC4-F9E6-544C-2274-4ABD898C8087</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53A33F94-CE12-7C71-62FD-225C12FCA57A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F382C0E4-11B9-D7F6-C1B0-AE39AF75883C" name="Informacje_Sezonowe__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8AA8BED2-F3AA-EA0E-A052-8EC9AB5A7205</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E4C1A563-BF9C-C310-5365-ADF3EB03DA63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EFA956B-FADC-25F4-451A-464C2E8A61BF" name="Informacje_Sezonowe_Klub_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>8AA8BED2-F3AA-EA0E-A052-8EC9AB5A7205</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4C1A563-BF9C-C310-5365-ADF3EB03DA63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="272A876F-1942-F3F1-F2AD-A7C1800F4576" name="Informacje_Sezonowe_Informacj_Ligowe_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>17088BBC-2E7F-9212-DD0E-9E0AE3601EE3</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

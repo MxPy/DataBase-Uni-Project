@@ -7,6 +7,7 @@
 <item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
 </engineerTo>
 <sourcePk>91D18174-D371-B902-3952-929B38CDBDD7</sourcePk>
+<targetPk>C5BCA790-865A-35C4-A6E4-3027225F4229</targetPk>
 <identifying>false</identifying>
 <nameOnSource>posiada kierowce rezerwowego</nameOnSource>
 <nameOnTarget>jest kierowca rezerwowym</nameOnTarget>

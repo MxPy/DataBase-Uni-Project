@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E628E68-8A0C-5FA1-0D40-0D32BC535DDF" containerWithKeyObject="F82B15AF-A047-1DB4-13EB-A636AF539C08" localFKIndex="8B49C360-C9ED-AD2C-9E88-E1495AF04C16" name="Nagroda_Klubowa_Nagroda_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>2D174B8B-8F35-73FB-5D84-D14E90D806BE</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<referredTableLongName>Nagroda</referredTableLongName>
+<arc>9AEEA96C-AEC4-19A2-F6E0-E17FA9B3A0A4</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>031F0D7B-1C35-6ADF-D8B0-406F57D760E5</referredTableID>
+<keyObject>E3067761-6AEA-70CB-C9D5-0E4BAF6B3D5D</keyObject>
+<referredKeyID>E3067761-6AEA-70CB-C9D5-0E4BAF6B3D5D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_nagrody</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

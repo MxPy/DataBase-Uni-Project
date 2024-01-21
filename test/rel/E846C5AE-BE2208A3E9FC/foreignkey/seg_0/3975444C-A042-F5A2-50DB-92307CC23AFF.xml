@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3975444C-A042-F5A2-50DB-92307CC23AFF" containerWithKeyObject="B5CCF8F1-DFC0-13A6-478A-50EF8DFBCF4D" localFKIndex="678E7FEB-B5DA-61DD-FFAD-9CE6A66EA899" name="Wyscig_Sezon_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>04C2AA0C-CF20-156E-560A-611B6FC6B995</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<referredTableLongName>Sezon</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1FA8E4D1-B870-924F-8918-9C21E926D00A</referredTableID>
+<keyObject>53AEE5DB-080E-A39A-E0E0-056ACEE18132</keyObject>
+<referredKeyID>53AEE5DB-080E-A39A-E0E0-056ACEE18132</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_zesonu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5CCF8F1-DFC0-13A6-478A-50EF8DFBCF4D" name="Wyscig">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>89F5BC19-FFC6-8AF5-FAB7-030F439CF628</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="4FF2D5A3-B8B5-AFCF-49B1-69DFC8F743FD">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>D3AE2AFE-8A9E-8FA8-5B64-66EB5855CF07</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kraj" id="D4924506-DADD-9DD3-D3FD-734947091AE0">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>DA7D6DD7-6BB3-9DCB-6D32-8562C3EF276B</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sezon_nr_zesonu" id="E5B244C9-C689-D346-4DE8-DC6BFEC6843F">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>19E12280-3314-8315-BA28-5F26F812A2A8</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3975444C-A042-F5A2-50DB-92307CC23AFF" referredColumn="C780C823-D9B7-E747-CB20-B07CF065F960"/>
+</associations>
+</Column>
+<Column name="Organizator_Nazwa" id="68DBAC62-04EA-9FC1-B640-CD4D19DAACEB">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>83E7D247-02B3-DAEE-FA8F-64441ADBDC1E</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E10727A-D74C-EA45-E625-CC9F0D1FAB3A" referredColumn="44B77F10-0980-92C6-BA7B-9D69B986C556"/>
+</associations>
+</Column>
+<Column name="Data_wyscigu" id="9F8F4F99-4F15-3F9A-CC04-B60CDF9B0A6D">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>DAF616DB-B5D6-DB50-4726-C591459AFABE</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tor_Nazwa" id="A0CCFAB9-C38B-6C37-4082-F6C07573A0EE">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>CB35A50D-9E47-5DC8-694E-8ADAE63D7D9B</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44E62EC1-F7E5-704C-6628-FB91C1EAE0B2" referredColumn="312E8828-1FEB-C9F0-ACC9-EF447F53A271"/>
+</associations>
+</Column>
+<Column name="Tor_Rekord_okrozenia" id="C3825350-4F74-C7C8-C772-177D85AB3FFE">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>DE652D97-BC7F-83E4-41B3-19A7CF5F5AB5</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44E62EC1-F7E5-704C-6628-FB91C1EAE0B2" referredColumn="48B7E968-081F-743C-5DE3-3A7BDC4DD5BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB06B07D-5068-3260-6AFF-0A68A5A69F64" name="Wyscig_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>635867FC-A7A6-BFEB-55EA-0A7634D0F3E2</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FF2D5A3-B8B5-AFCF-49B1-69DFC8F743FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7869FBC-4619-5223-ABDB-21634A1BDFE2" name="Wyscig__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>731F7C19-062F-EE9A-CC75-61DE0C139B82</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="68DBAC62-04EA-9FC1-B640-CD4D19DAACEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E51F8509-A2DE-FB39-6A9E-3D403F023D65" name="Wyscig__IDXv1">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A93FD17B-481D-F8C9-FDB6-E0DDDD4090FF</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A0CCFAB9-C38B-6C37-4082-F6C07573A0EE"/>
+<colUsage columnID="C3825350-4F74-C7C8-C772-177D85AB3FFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="678E7FEB-B5DA-61DD-FFAD-9CE6A66EA899" name="Wyscig_Sezon_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>04C2AA0C-CF20-156E-560A-611B6FC6B995</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5B244C9-C689-D346-4DE8-DC6BFEC6843F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2D8B221-331D-C937-AFDB-FA2E633FECE9" name="Wyscig_Organizator_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>731F7C19-062F-EE9A-CC75-61DE0C139B82</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68DBAC62-04EA-9FC1-B640-CD4D19DAACEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB1E9A43-AF4E-9E82-8FCB-B7F957C0E2EA" name="Wyscig_Tor_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>A93FD17B-481D-F8C9-FDB6-E0DDDD4090FF</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0CCFAB9-C38B-6C37-4082-F6C07573A0EE"/>
+<colUsage columnID="C3825350-4F74-C7C8-C772-177D85AB3FFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

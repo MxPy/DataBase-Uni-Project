@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A11456DB-5143-B523-B355-7BE6C2B911A7" name="Nagroda_Personalna">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>47AD7D56-B3ED-52FE-21F2-B343933A3BA5</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nagrody" id="01F96E9C-D962-E5F4-957E-95FB9744ABB4">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>221060D3-8D2F-3A1F-C416-0A23AC9E5785</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0403FCF3-354A-B21C-DBF2-E146EA1718C1" referredColumn="1D09B87C-CC01-6C42-7D77-12325748287D"/>
+</associations>
+</Column>
+<Column name="Zawodnik_Pseudonim" id="5E23DF99-370A-8424-B8A5-55CD75E2FF46">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>307195FB-879F-CC6F-E7CB-33B22887B3F8</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5633B88-A9BE-1EB5-8A32-5A940A7AD8E5" referredColumn="F9932360-6C6F-8DFA-6366-ED99842EFF3F"/>
+</associations>
+</Column>
+<Column name="Zawodnik_Zespoł_nr_zespolu" id="95DE1ED6-2AA5-B727-EBB9-8E86BA2C43B4">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>2D5E5584-AB07-BE29-D17F-A07BF7E4FEC0</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5633B88-A9BE-1EB5-8A32-5A940A7AD8E5" referredColumn="B89CCBDD-92E7-5AC9-25D4-31BC7E882C3D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8950F5B7-F3E9-1366-FB2B-9E150794D720" name="Nagroda_Personalna_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>D7E8578C-2E19-EBB3-1E76-D84904BD982E</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01F96E9C-D962-E5F4-957E-95FB9744ABB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D94386E1-D4B1-41FC-B1C9-A19148277A0F" name="Nagroda_Personalna_PKv1">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>C963B89B-E866-753E-33C9-149CF5E1A43C</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E23DF99-370A-8424-B8A5-55CD75E2FF46"/>
+<colUsage columnID="95DE1ED6-2AA5-B727-EBB9-8E86BA2C43B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EE509E8-70BD-854E-778F-F4887936A9FD" name="Nagroda_Personalna_Nagroda_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>1F74BACD-AED5-518E-CAF7-5DE1F36EDC0F</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01F96E9C-D962-E5F4-957E-95FB9744ABB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B59ED1D7-6119-DC42-88D1-527B6BB7375B" name="Nagroda_Personalna_Zawodnik_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>D8BF7492-7660-8017-06CD-F104500A955E</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E23DF99-370A-8424-B8A5-55CD75E2FF46"/>
+<colUsage columnID="95DE1ED6-2AA5-B727-EBB9-8E86BA2C43B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

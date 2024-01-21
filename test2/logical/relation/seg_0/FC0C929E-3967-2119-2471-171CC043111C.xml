@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zawodnik Zespoł FK" directorySegmentName="seg_0" id="FC0C929E-3967-2119-2471-171CC043111C">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:13:04 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<sourcePk>5BBB0846-07AA-18F0-1E3F-C7AB5C650D0D</sourcePk>
+<targetPk>D10E7ED0-95C6-2C48-213B-D003623783A0</targetPk>
+<identifying>false</identifying>
+<nameOnSource>wystawia</nameOnSource>
+<nameOnTarget>gra dla</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DFAE4C0D-8613-D255-DBFA-A05E03DCF646</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A2A23973-9623-5627-0F26-208BA4456C3E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

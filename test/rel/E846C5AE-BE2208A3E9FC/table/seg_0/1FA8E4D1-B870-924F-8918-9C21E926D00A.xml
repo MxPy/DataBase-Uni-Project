@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FA8E4D1-B870-924F-8918-9C21E926D00A" name="Sezon">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:42:19 UTC</createdTime>
+<generatorID>A7434CC9-6624-44D4-80DF-B6C13AFE20D3</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_zesonu" id="C780C823-D9B7-E747-CB20-B07CF065F960">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:42:19 UTC</createdTime>
+<generatorID>046BC34E-35C6-9A6C-1F57-DE2D4DBC5F0E</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rozpoczecie" id="4CD220E0-4D1D-9C7B-1594-B14F6DB7D1FA">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:42:19 UTC</createdTime>
+<generatorID>2ADAC9B7-6F26-E05C-667F-3B719D8406B1</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zakonczenie" id="877AFFC1-C5DE-4C96-29E9-FAAC237124F2">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:42:19 UTC</createdTime>
+<generatorID>55A9A160-7B49-64C8-DF36-9428AEDAAEF7</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zespol_Nazwa" id="9FBAD766-6864-2B5C-83AE-A45BB221CE31">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:42:19 UTC</createdTime>
+<generatorID>709F8102-9690-7ED9-F9B5-24754B17FA8B</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35067521-7467-B125-C9D1-DF693065F379" referredColumn="5B4BF1A5-F01A-322E-84E2-D3C1D617FA23"/>
+</associations>
+</Column>
+<Column name="Kierowcy_nr_licencji" id="D5CB3335-2F33-3A23-A8F4-11171D2CC8FD">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:42:19 UTC</createdTime>
+<generatorID>6879740D-DB24-496B-6CD1-CA1804CB5979</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7B7A677-4FFC-0D41-5D06-5BB807B0ABED" referredColumn="6E812D12-4D12-2FEC-0816-176FA07A949A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53AEE5DB-080E-A39A-E0E0-056ACEE18132" name="Sezon_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:42:19 UTC</createdTime>
+<generatorID>9D931CAD-A361-AA78-9533-F52D86E260B5</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C780C823-D9B7-E747-CB20-B07CF065F960"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C352C0A1-735A-54EC-80D1-28DF2AE13E42" name="Sezon__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:42:19 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1E8EAAC4-95BD-17F1-338C-290E5DF8B257</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9FBAD766-6864-2B5C-83AE-A45BB221CE31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD1E6021-A9C9-1E94-6947-7A182BD0A727" name="Sezon__IDXv1">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:42:19 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D88E385A-05BF-0DB0-B644-0457879392E5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D5CB3335-2F33-3A23-A8F4-11171D2CC8FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="704C1E97-9A96-E0CA-308D-FE4C7F30592E" name="Sezon_Zespol_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:44:35 UTC</createdTime>
+<generatorID>1E8EAAC4-95BD-17F1-338C-290E5DF8B257</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FBAD766-6864-2B5C-83AE-A45BB221CE31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3C47EF9-8D58-AE15-9478-27F370545AC6" name="Sezon_Kierowcy_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:45:40 UTC</createdTime>
+<generatorID>D88E385A-05BF-0DB0-B644-0457879392E5</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5CB3335-2F33-3A23-A8F4-11171D2CC8FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

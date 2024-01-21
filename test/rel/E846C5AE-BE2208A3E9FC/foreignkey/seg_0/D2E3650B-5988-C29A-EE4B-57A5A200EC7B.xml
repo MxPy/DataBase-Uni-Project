@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D2E3650B-5988-C29A-EE4B-57A5A200EC7B" containerWithKeyObject="260EBA2B-1EDE-E45E-CA11-3F7FFE781C30" localFKIndex="E2013FEB-BE55-3922-11B6-4E89E9F253C4" name="Zespol_bolid_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>CB0A254E-4C83-34BD-638E-EDA33219A929</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<referredTableLongName>bolid</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F9A738DF-751E-90A0-0ECA-38B87CE47DEC</referredTableID>
+<keyObject>95E75EC6-7EC2-B866-C471-0BB3E757C413</keyObject>
+<referredKeyID>95E75EC6-7EC2-B866-C471-0BB3E757C413</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Nazwa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

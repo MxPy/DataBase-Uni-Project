@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47AD7D56-B3ED-52FE-21F2-B343933A3BA5" name="Nagroda Personalna">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 19:08:09 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>52691A52-9130-CF86-F85D-6B8810CC9776</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Zawodnik Pseudonim" id="307195FB-879F-CC6F-E7CB-33B22887B3F8">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:22:31 UTC</createdTime>
+<generatorID>D8BF7492-7660-8017-06CD-F104500A955E</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<referedAttribute>09A6FB74-7E20-133B-5CF8-70E19BF3E5DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr zespolu" id="D74887B2-4BCA-7FE0-2305-DFB63A5B74A6">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 22:24:45 UTC</createdTime>
+<generatorID>6EAE6B13-E3F2-C260-4CFD-13FDF51B8306</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C963B89B-E866-753E-33C9-149CF5E1A43C" name="Nagroda_Personalna PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:22:31 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

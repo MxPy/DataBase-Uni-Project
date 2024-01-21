@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1976585D-6B27-8340-9B2F-D1D7F33EBAC5" containerWithKeyObject="0C06586B-4446-E9FC-4FAF-B1E7B02BD3DE" localFKIndex="4E23002E-DDC2-7FDF-F6D6-DA04A80C4532" name="Tor_Wyscig_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>A93FD17B-481D-F8C9-FDB6-E0DDDD4090FF</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<referredTableLongName>Wyscig</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B5CCF8F1-DFC0-13A6-478A-50EF8DFBCF4D</referredTableID>
+<keyObject>CB06B07D-5068-3260-6AFF-0A68A5A69F64</keyObject>
+<referredKeyID>CB06B07D-5068-3260-6AFF-0A68A5A69F64</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Nazwa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

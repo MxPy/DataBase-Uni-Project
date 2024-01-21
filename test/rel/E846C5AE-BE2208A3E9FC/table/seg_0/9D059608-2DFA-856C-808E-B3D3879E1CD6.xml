@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D059608-2DFA-856C-808E-B3D3879E1CD6" name="Organizator">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>13E8A8EB-452F-D70B-0741-A23811FE016B</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="44B77F10-0980-92C6-BA7B-9D69B986C556">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>A3FD9BC3-E06A-E891-6DCE-275685D1991F</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wyscig_Nazwa" id="032A1397-9046-BF31-BFA2-51D40DD3BD3E">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>B3DFB13D-ACE6-DB63-B40C-5C55EE326B3F</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="053F9136-3BFC-4B8D-401D-C23C2E62D424" referredColumn="4FF2D5A3-B8B5-AFCF-49B1-69DFC8F743FD"/>
+</associations>
+</Column>
+<Column name="Dyrektor_Nazwisko" id="B00BE9A2-19DF-A6F3-24BC-3C8EA6965D5D">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>B49CEF8A-EE70-A3A5-560C-0905C09CF032</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92B1CCE8-0854-FA7E-45FD-4E55E69E52D5" referredColumn="91DCCAF0-436B-FB6E-CE2D-DFD699EEEE4C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C068282-5B41-6723-B0B7-70356CC6571B" name="Organizator_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>4575F9BD-B9D7-8B89-869C-4C7E4F50DA3C</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44B77F10-0980-92C6-BA7B-9D69B986C556"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5A23B00-C1F5-30EF-185D-BA18E1BAB333" name="Organizator__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>731F7C19-062F-EE9A-CC75-61DE0C139B82</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="032A1397-9046-BF31-BFA2-51D40DD3BD3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEB73F97-6C30-E7C3-63B6-743022C661FB" name="Organizator__IDXv1">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>89C8B138-6343-0B6A-4984-674B0B7C25E8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B00BE9A2-19DF-A6F3-24BC-3C8EA6965D5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D312ECE2-FFA2-86C8-C10D-385BEC02EE38" name="Organizator_Wyscig_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>731F7C19-062F-EE9A-CC75-61DE0C139B82</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="032A1397-9046-BF31-BFA2-51D40DD3BD3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92BA043B-C75F-CE35-6EBE-C5C90B736094" name="Organizator_Dyrektor_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>89C8B138-6343-0B6A-4984-674B0B7C25E8</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B00BE9A2-19DF-A6F3-24BC-3C8EA6965D5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

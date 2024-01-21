@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9A738DF-751E-90A0-0ECA-38B87CE47DEC" name="bolid">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>6CB6DEE1-6668-9122-3624-764992EC1718</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="95410F70-6B25-494A-9660-BFE7479354D6">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>36842D28-DE12-18C7-9971-647815AA2922</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zespol_Nazwa" id="B5F5AD49-4435-7187-1B7E-9ACA8B280650">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>E2CB127C-2ABE-249C-A524-4D309A30B152</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="210FDA19-67A8-865F-C598-DDEEF1DC965E" referredColumn="5B4BF1A5-F01A-322E-84E2-D3C1D617FA23"/>
+</associations>
+</Column>
+<Column name="silnik_id_silnika" id="BE23C22F-A92B-0045-EED8-66F7ADAEE557">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>CE159C51-FCD7-0293-93D2-989DAE29BD5A</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36AC4498-E86E-6C49-8E77-0971E6E27496" referredColumn="F13F5A64-DAD3-70AD-7822-B1C2BFE0164E"/>
+</associations>
+</Column>
+<Column name="podwozie_id_podwozia" id="1D632A48-228C-0D28-CA95-52827415541E">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>D6243978-F825-92E6-5732-570C6620B6E7</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FFF0035-4243-21EB-D47E-F9F91215231F" referredColumn="1CFB3442-1796-AA6F-E4D4-7349BD7D48E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95E75EC6-7EC2-B866-C471-0BB3E757C413" name="bolid_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>A07D363C-7CB6-C668-1C7C-7823C257F859</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95410F70-6B25-494A-9660-BFE7479354D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="660AA47A-9E5A-8CA5-9D20-9AE1413FB852" name="bolid__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CB0A254E-4C83-34BD-638E-EDA33219A929</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B5F5AD49-4435-7187-1B7E-9ACA8B280650"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1D42AB2-C6E1-1037-60CF-8E03012BE3D7" name="bolid_silnik_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>F388928D-84EA-A147-EEA4-EEA61CF18BCD</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE23C22F-A92B-0045-EED8-66F7ADAEE557"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E402BBE0-EBF4-C292-703C-55E8134DD42C" name="bolid_podwozie_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>FD4F00E0-6D1C-E418-7A7F-DD3A9232A93D</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D632A48-228C-0D28-CA95-52827415541E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D763839B-054F-B90B-5B4A-C5BE3FD3E0F1" name="bolid_Zespol_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>CB0A254E-4C83-34BD-638E-EDA33219A929</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5F5AD49-4435-7187-1B7E-9ACA8B280650"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

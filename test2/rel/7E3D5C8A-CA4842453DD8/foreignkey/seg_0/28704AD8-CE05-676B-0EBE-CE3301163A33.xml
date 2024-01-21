@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="28704AD8-CE05-676B-0EBE-CE3301163A33" containerWithKeyObject="C6E8F228-C46D-0805-0FA0-AD82DF3948BA" localFKIndex="EDD77148-0BFC-2373-AB79-40EF66A8C3BB" name="Zawodnik_Profil_Rynkowy_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>0EB06645-5EB6-E615-704E-11D37DCA912A</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<referredTableLongName>Profil_Rynkowy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F3256C4D-7476-EC92-73F5-78F2718E61A4</referredTableID>
+<keyObject>6DF4B2EC-4475-ADFE-C359-9466B94172C6</keyObject>
+<referredKeyID>6DF4B2EC-4475-ADFE-C359-9466B94172C6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_profilu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

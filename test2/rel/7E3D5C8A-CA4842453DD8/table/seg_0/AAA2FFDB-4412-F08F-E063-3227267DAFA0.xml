@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAA2FFDB-4412-F08F-E063-3227267DAFA0" name="Klub">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>35A357AE-7927-52F1-1272-DD8571641619</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="4FC6B503-9E5F-76F1-3E3F-4F10454C7B29">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>8E63D6F2-8240-2A80-CAB4-89D380DD9B5C</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stadion_nazwa" id="9B82A789-394A-5BD2-A70F-1F8C170BC6A4">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>19B68BB5-6B1E-C86E-6A7B-EC025D292F7D</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18D6941A-2605-ACBB-2CD0-91FB81112C9D" referredColumn="DB22EF53-67E2-7C47-43EB-2B0EB91A9908"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D868220-48AB-4547-590F-945F8918A4C5" name="Klub_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>8D235482-BA39-A00D-819B-C984F8444317</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FC6B503-9E5F-76F1-3E3F-4F10454C7B29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E03361D5-38FB-4620-3950-929C55BB8812" name="Klub__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>22AD745C-F018-D024-8E39-7934E30B7FA2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9B82A789-394A-5BD2-A70F-1F8C170BC6A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D44888F-D308-2FD6-0746-43908F8A7891" name="Klub_Stadion_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>22AD745C-F018-D024-8E39-7934E30B7FA2</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B82A789-394A-5BD2-A70F-1F8C170BC6A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

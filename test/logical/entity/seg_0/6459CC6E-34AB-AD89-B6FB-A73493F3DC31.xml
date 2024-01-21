@@ -39,20 +39,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nr_zesonu" id="AEB4C36E-2697-1F8D-9817-F353B016DD48">
-<createdBy>PC</createdBy>
-<createdTime>2024-01-20 15:07:33 UTC</createdTime>
-<generatorID>1E8EAAC4-95BD-17F1-338C-290E5DF8B257</generatorID>
-<ownerDesignName>test</ownerDesignName>
-<engineerTo>
-<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
-</engineerTo>
-<referedAttribute>046BC34E-35C6-9A6C-1F57-DE2D4DBC5F0E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="nr_zesonu1" id="0CD0500C-8B9A-65B0-9BAD-1206315B9C53">
 <createdBy>PC</createdBy>
 <createdTime>2024-01-20 15:13:22 UTC</createdTime>
@@ -67,14 +53,69 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="budzet" id="4948A6CD-7343-9EA2-2272-381D80E1FC99">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:54:25 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa1" id="4B1C4D18-394E-B782-6521-FC3E67DD8512">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:57:51 UTC</createdTime>
+<generatorID>CB0A254E-4C83-34BD-638E-EDA33219A929</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<referedAttribute>36842D28-DE12-18C7-9971-647815AA2922</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa2" id="75975ECA-0D63-CAEE-4F06-7EF69BA9D7EA">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:15:53 UTC</createdTime>
+<generatorID>C48AAC3C-2417-988C-9F61-31804BA9E1C7</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<referedAttribute>03C46EB5-4E35-2A68-D6E9-B370C8E10189</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="CBBA3520-B0A1-84EC-C93D-14EE21E3137D">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:16:18 UTC</createdTime>
+<generatorID>B52CF814-EC4C-295D-D309-0698474772CE</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<referedAttribute>0BA65F51-33E6-8832-25C1-3B60CC81E18A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="91D18174-D371-B902-3952-929B38CDBDD7" name="Zespol PK">
 <createdBy>PC</createdBy>
 <createdTime>2024-01-20 14:57:46 UTC</createdTime>
 <ownerDesignName>test</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

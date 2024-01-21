@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DFAE4C0D-8613-D255-DBFA-A05E03DCF646" name="Zespoł">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 18:50:05 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr zespolu" id="7260BE1A-90FB-5E8E-DCD6-F55EB27A044B">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 18:50:19 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Klub nazwa" id="0283268C-6317-6C01-8501-21B158AA6B98">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:11:19 UTC</createdTime>
+<generatorID>38BEF487-A0B6-9B6D-65C9-C253C6AA2E36</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<referedAttribute>8E63D6F2-8240-2A80-CAB4-89D380DD9B5C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Trener id trenera" id="BBCBA8B7-82C4-0339-A96A-BC40CA645BCB">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 22:30:51 UTC</createdTime>
+<generatorID>1F9BEFD4-6599-E65D-CB12-74486B48C0FB</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BBB0846-07AA-18F0-1E3F-C7AB5C650D0D" name="Zespoł PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 18:50:33 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7260BE1A-90FB-5E8E-DCD6-F55EB27A044B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

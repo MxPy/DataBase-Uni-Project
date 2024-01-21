@@ -7,6 +7,7 @@
 <item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
 </engineerTo>
 <sourcePk>91D18174-D371-B902-3952-929B38CDBDD7</sourcePk>
+<targetPk>6B4C774A-B770-E7B6-A62E-20AB26A87219</targetPk>
 <identifying>false</identifying>
 <nameOnSource>posada kierowce</nameOnSource>
 <nameOnTarget>jest kierowca</nameOnTarget>

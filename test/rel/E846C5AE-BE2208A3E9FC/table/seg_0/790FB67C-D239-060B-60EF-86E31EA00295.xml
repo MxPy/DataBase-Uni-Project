@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="790FB67C-D239-060B-60EF-86E31EA00295" name="Doostawca_podwozia">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>2B930884-2360-15F5-419A-6B4CABA703E3</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="D900FC6C-DED1-745A-D831-2F56B9ABA210">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>FD0034CC-7B8E-E4C5-BD7D-C9FE26A8E912</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_silnika" id="AD7E06FF-966C-84A3-C815-072793AFB986">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>5BE040D2-447C-A994-78A0-7458F7C710D5</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="podwozie_id_podwozia" id="10417C47-12FD-0243-0D2F-8AA62D26282D">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>1C0B7EF7-3379-5107-B410-8D33BEC0AC52</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="989E25F8-1AA5-84B1-C84F-30C653582F62" referredColumn="1CFB3442-1796-AA6F-E4D4-7349BD7D48E5"/>
+</associations>
+</Column>
+<Column name="Dyrektor_Nazwisko" id="633EFA8E-3518-5997-126F-15D14FBEA21C">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>C49D920A-1B25-52E3-EEE0-A1C4147CD2F5</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33C95B2D-FC04-B2E7-794B-F8266914C619" referredColumn="91DCCAF0-436B-FB6E-CE2D-DFD699EEEE4C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0104AA2F-572E-7D01-658C-5C941D8BD2B3" name="Doostawca_podwozia_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>0313F57C-E7F9-E245-A729-F0C314103BAC</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D900FC6C-DED1-745A-D831-2F56B9ABA210"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21B85AF4-FD3A-536C-7D66-DDF788C212C3" name="Doostawca_podwozia__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5B225EE1-37A7-D7C4-EC0C-13FCF8461A49</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="10417C47-12FD-0243-0D2F-8AA62D26282D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="068E8601-BC31-2611-4A86-6192F1B924FB" name="Doostawca_podwozia__IDXv1">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C8DAF1EA-B55A-EB01-EA5B-32F520A12805</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="633EFA8E-3518-5997-126F-15D14FBEA21C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82D7B6C2-E8F6-21AF-B78C-613F272F917B" name="Doostawca_podwozia_podwozie_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>5B225EE1-37A7-D7C4-EC0C-13FCF8461A49</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10417C47-12FD-0243-0D2F-8AA62D26282D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CA266D6-93A3-A871-4F31-45607F342875" name="Doostawca_podwozia_Dyrektor_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>C8DAF1EA-B55A-EB01-EA5B-32F520A12805</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="633EFA8E-3518-5997-126F-15D14FBEA21C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C7B7A677-4FFC-0D41-5D06-5BB807B0ABED" containerWithKeyObject="1FA8E4D1-B870-924F-8918-9C21E926D00A" localFKIndex="A3C47EF9-8D58-AE15-9478-27F370545AC6" name="Sezon_Kierowcy_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:45:40 UTC</createdTime>
+<generatorID>D88E385A-05BF-0DB0-B644-0457879392E5</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<referredTableLongName>Kierowcy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>60C03BDE-996E-BEF4-5B48-81B939F64258</referredTableID>
+<keyObject>F84D9006-488F-430D-1323-50B66420E91C</keyObject>
+<referredKeyID>F84D9006-488F-430D-1323-50B66420E91C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_licencji</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

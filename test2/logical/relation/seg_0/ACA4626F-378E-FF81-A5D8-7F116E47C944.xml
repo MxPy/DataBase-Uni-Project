@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sponsor Klub FK" directorySegmentName="seg_0" id="ACA4626F-378E-FF81-A5D8-7F116E47C944">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:12:30 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<sourcePk>8D235482-BA39-A00D-819B-C984F8444317</sourcePk>
+<targetPk>92630B33-807E-FCA4-0633-6FFBFE3730B9</targetPk>
+<identifying>true</identifying>
+<nameOnSource>jest sponsorowany</nameOnSource>
+<nameOnTarget>sopnsoruje</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>35A357AE-7927-52F1-1272-DD8571641619</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>37075CF2-10EB-0B67-4B39-F2C869637962</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

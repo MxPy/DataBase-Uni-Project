@@ -87,8 +87,9 @@
 <createdBy>PC</createdBy>
 <createdTime>2024-01-20 14:56:50 UTC</createdTime>
 <ownerDesignName>test</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

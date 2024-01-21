@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78660FB5-6C19-5F90-CF5B-F1099052DAD7" name="Doostawca_silnika">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>C5DF8165-D7AE-F2CA-10BC-22744B12091F</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="81C7A878-6400-7B09-6DBA-6B3D01FF1ACF">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>88202D2F-B17D-6B72-81A9-040EEFC0E808</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="silnik_id_silnika" id="ED6C1888-0785-6185-337A-36C2EC73AA09">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>D02519F8-CE12-3267-5889-8A92F74AC04B</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FA8787E-BC02-3F7C-68E0-0D54819CD140" referredColumn="F13F5A64-DAD3-70AD-7822-B1C2BFE0164E"/>
+</associations>
+</Column>
+<Column name="Dyrektor_Nazwisko" id="226C33F1-40E0-7F11-0A19-7D682DF007EB">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>DE24008F-9841-1476-8B8F-9A3A44B742C0</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA4561BC-0616-86D8-DDA1-5FECD2F478AA" referredColumn="91DCCAF0-436B-FB6E-CE2D-DFD699EEEE4C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="112F8FF8-62C2-43D5-97DC-B531573BF541" name="Doostawca_silnika_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>DC148BB8-D3B9-E5CE-B220-828302D85586</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81C7A878-6400-7B09-6DBA-6B3D01FF1ACF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6FF4C69-4AA5-6EE7-55FC-62ACEB70BF09" name="Doostawca_silnika__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6B051543-E61C-97BC-EE6C-C13A5B61F261</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="ED6C1888-0785-6185-337A-36C2EC73AA09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="888744EC-E0C3-51DA-C8EF-770B372D8470" name="Doostawca_silnika__IDXv1">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B03714A1-510D-1FD8-D7C4-FDD65D553E90</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="226C33F1-40E0-7F11-0A19-7D682DF007EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74933542-D02F-55B8-57CC-9CBDBA7CF69F" name="Doostawca_silnika_silnik_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>6B051543-E61C-97BC-EE6C-C13A5B61F261</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED6C1888-0785-6185-337A-36C2EC73AA09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="153E62C2-C011-CB45-D8DE-DB77C60EAEE9" name="Doostawca_silnika_Dyrektor_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>B03714A1-510D-1FD8-D7C4-FDD65D553E90</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="226C33F1-40E0-7F11-0A19-7D682DF007EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

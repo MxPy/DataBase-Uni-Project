@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C06586B-4446-E9FC-4FAF-B1E7B02BD3DE" name="Tor">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>034B317E-FAD5-1063-2EBC-8A5552E617BE</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="312E8828-1FEB-C9F0-ACC9-EF447F53A271">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>921EBA13-8C0E-B00F-58F4-23756F3339DF</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dlugosc" id="2D974FD5-AFD9-0F88-075D-9A59EFE6A715">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>9F858098-C397-C78C-6F2B-5FB10FDC2880</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rekord_okrozenia" id="48B7E968-081F-743C-5DE3-3A7BDC4DD5BA">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>740662E0-5D06-7EBE-5C6C-1C10B752EC43</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wyscig_Nazwa" id="92F8ABB9-E37E-7D29-D009-83A3BC07BAD6">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>C7ACA3EC-6F02-93A6-C057-566F4A1E070B</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1976585D-6B27-8340-9B2F-D1D7F33EBAC5" referredColumn="4FF2D5A3-B8B5-AFCF-49B1-69DFC8F743FD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B6C4B97-CED3-5D80-95D9-B03904A2BBF1" name="Tor_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>8B7AD3B4-0A9C-70B9-9554-F0A7C9FB9EF7</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="312E8828-1FEB-C9F0-ACC9-EF447F53A271"/>
+<colUsage columnID="48B7E968-081F-743C-5DE3-3A7BDC4DD5BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA6A80C9-4BCC-B352-497D-5F889FC669D5" name="Tor__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A93FD17B-481D-F8C9-FDB6-E0DDDD4090FF</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="92F8ABB9-E37E-7D29-D009-83A3BC07BAD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E23002E-DDC2-7FDF-F6D6-DA04A80C4532" name="Tor_Wyscig_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>A93FD17B-481D-F8C9-FDB6-E0DDDD4090FF</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92F8ABB9-E37E-7D29-D009-83A3BC07BAD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

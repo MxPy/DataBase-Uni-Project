@@ -12,7 +12,7 @@
 <nameOnSource>ma mistrza konstruktorow</nameOnSource>
 <nameOnTarget>zdobył mistrzostwo konstruktorow</nameOnTarget>
 <optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>A7434CC9-6624-44D4-80DF-B6C13AFE20D3</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>

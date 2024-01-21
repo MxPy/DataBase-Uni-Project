@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5DF8165-D7AE-F2CA-10BC-22744B12091F" name="Doostawca_silnika">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:01:46 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nazwa" id="88202D2F-B17D-6B72-81A9-040EEFC0E808">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:02:13 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_silnika" id="D02519F8-CE12-3267-5889-8A92F74AC04B">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:02:36 UTC</createdTime>
+<generatorID>6B051543-E61C-97BC-EE6C-C13A5B61F261</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<referedAttribute>63F571E5-8176-ADC4-16CC-92B35A86D0B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="DE24008F-9841-1476-8B8F-9A3A44B742C0">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:17:11 UTC</createdTime>
+<generatorID>B03714A1-510D-1FD8-D7C4-FDD65D553E90</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<referedAttribute>0BA65F51-33E6-8832-25C1-3B60CC81E18A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DC148BB8-D3B9-E5CE-B220-828302D85586" name="Doostawca_silnika PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:02:27 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="E846C5AE-8A68-FD6B-D28E-BE2208A3E9FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88202D2F-B17D-6B72-81A9-040EEFC0E808</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

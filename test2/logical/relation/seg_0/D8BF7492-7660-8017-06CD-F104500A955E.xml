@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nagroda Personalna Zawodnik FK" directorySegmentName="seg_0" id="D8BF7492-7660-8017-06CD-F104500A955E">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:22:31 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<sourcePk>D10E7ED0-95C6-2C48-213B-D003623783A0</sourcePk>
+<targetPk>C963B89B-E866-753E-33C9-149CF5E1A43C</targetPk>
+<identifying>false</identifying>
+<nameOnSource>zdobyl</nameOnSource>
+<nameOnTarget>zostala zdobyta</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A2A23973-9623-5627-0F26-208BA4456C3E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>47AD7D56-B3ED-52FE-21F2-B343933A3BA5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

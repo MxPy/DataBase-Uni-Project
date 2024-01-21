@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4CEE86AF-3574-7221-BB2C-5E6FF00B4DBF" name="Profil Rynkowy">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 18:52:38 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id profilu" id="965F5008-5EFC-ECB0-B74C-785C67D6C51E">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 18:52:49 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wartosc rynkowa" id="32ADCE82-3775-0AEE-5B8B-7A8340B0E520">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 19:25:25 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zawodnik Pseudonim" id="090B041E-4E6F-68E9-F60F-E1F9954D1B55">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 22:24:14 UTC</createdTime>
+<generatorID>4B2E3715-FAFA-9806-B080-B3C26E234837</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr zespolu" id="8648DC48-74F1-73A5-E20D-C47F01B7D1DA">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 22:24:14 UTC</createdTime>
+<generatorID>26A15791-F3AE-681C-F845-9A10644194A1</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D3B2E9F-5656-5DAB-D49F-1ADC6632D602" name="Profil_Rynkowy_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 18:53:00 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7E3D5C8A-5C67-0CFB-17C9-CA4842453DD8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>965F5008-5EFC-ECB0-B74C-785C67D6C51E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

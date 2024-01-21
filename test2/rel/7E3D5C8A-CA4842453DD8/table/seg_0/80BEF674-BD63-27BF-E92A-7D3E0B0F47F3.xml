@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80BEF674-BD63-27BF-E92A-7D3E0B0F47F3" name="Infgormacje_Pucharowe">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>32F2ECA7-D0CE-DC6C-5970-FE8A759AA62D</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazwa" id="4DCD760C-340D-C7E4-ABEA-9D8F712E4E60">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>0209920F-C154-B5AA-74CA-55C7A8C2341B</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zajete_miejsce" id="476E5066-20B7-4DA8-99D5-4D2DCACD9034">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>981D8742-18AB-2975-F5E8-9250D781AF27</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nagroda_pieniezna" id="CD847042-1FA8-B75F-E5F9-61AB26D1F54B">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>4D305A65-0654-4D5F-D1DC-018E45D220B0</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Informacje_Sezonowe_nr_sezonu" id="70AF0EA9-12DB-271D-F9C2-F17AC39BCF59">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>380EAFAD-ED05-92A4-A791-C2E5D5779B39</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="466C0473-4929-0D0E-D1D3-02C032C3654F" referredColumn="53A33F94-CE12-7C71-62FD-225C12FCA57A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D379105-9996-E0DC-6E7A-BE6FC9EBE2CE" name="Infgormacje_Pucharowe_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>DC5208F2-1AED-2B55-17B4-9D1852490D51</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DCD760C-340D-C7E4-ABEA-9D8F712E4E60"/>
+<colUsage columnID="70AF0EA9-12DB-271D-F9C2-F17AC39BCF59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EE34FA0-748A-23B7-1A5D-5DDCC2165A4A" name="Infgormacje_Pucharowe_Informacje_Sezonowe_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>F43E42C5-A502-DB56-9549-67EA55E98D45</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70AF0EA9-12DB-271D-F9C2-F17AC39BCF59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

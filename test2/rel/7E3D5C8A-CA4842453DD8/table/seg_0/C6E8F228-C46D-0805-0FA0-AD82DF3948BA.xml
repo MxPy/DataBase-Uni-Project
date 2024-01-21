@@ -1,0 +1,214 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6E8F228-C46D-0805-0FA0-AD82DF3948BA" name="Zawodnik">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>A2A23973-9623-5627-0F26-208BA4456C3E</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pseudonim" id="F9932360-6C6F-8DFA-6366-ED99842EFF3F">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>09A6FB74-7E20-133B-5CF8-70E19BF3E5DA</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="AD89EAEB-F4AF-754E-F949-2AE6B6B2FA16">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>90D304F3-CC1A-56BF-CD16-8EFD2F9DF0B4</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="A5D19D17-DB57-FEFD-5E65-472FC9E7B27D">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>FFF366F0-9D72-300E-EEE0-462A638AC2B5</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zespoł_nr_zespolu" id="B89CCBDD-92E7-5AC9-25D4-31BC7E882C3D">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>DF96B4C1-08E7-250C-D753-73B16B06AE9A</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="265FEE17-E9F2-6C2A-9F8C-254D31DCC3E2" referredColumn="D9C4A360-2037-3C12-F9DF-428A7824935E"/>
+</associations>
+</Column>
+<Column name="Profil_Rynkowy_id_profilu" id="E4C1C156-F382-9A67-4C35-02328FBD6140">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>254A36AB-B422-44C6-8DCB-91ED6DFEDE3E</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28704AD8-CE05-676B-0EBE-CE3301163A33" referredColumn="D949E839-22F9-EBC8-15BE-B3DBE01DFECB"/>
+</associations>
+</Column>
+<Column name="Manager_id_managera" id="127B7B1D-CA59-B35E-E02C-56134EF1D874">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>D82AE705-FF0D-0FDE-23C5-A0612C4187D2</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C63706F0-8A49-B551-0582-DEACCCB03827" referredColumn="A3B666F7-EA56-D044-6D7E-B084B9499B0B"/>
+</associations>
+</Column>
+<Column name="Kontrakt_id_kontraktu" id="010AA398-58EA-6344-D85D-2A6F2B4D90C4">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>06F15B49-5CB0-6CF6-D6D2-8CCC179E34E6</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F733DA2-7A05-0620-A477-01A1AC2FD692" referredColumn="048B775F-CB11-D649-F01F-4F9028B5A17A"/>
+</associations>
+</Column>
+<Column name="Kontrakt_Nazwa" id="8D286C97-AEAA-C615-3333-1C3C834C203A">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>2DD10D38-160E-FC20-D04D-90A70EB07E5E</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F733DA2-7A05-0620-A477-01A1AC2FD692" referredColumn="C67C0D65-CD28-542E-2483-FA195259FC76"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95A5B2D8-7966-A194-B25A-78F52485B870" name="Zawodnik_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>D10E7ED0-95C6-2C48-213B-D003623783A0</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9932360-6C6F-8DFA-6366-ED99842EFF3F"/>
+<colUsage columnID="B89CCBDD-92E7-5AC9-25D4-31BC7E882C3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2287D40-0E5A-63C9-8539-811558A95C53" name="Zawodnik__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0EB06645-5EB6-E615-704E-11D37DCA912A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E4C1C156-F382-9A67-4C35-02328FBD6140"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F81FC5C-40FA-D688-7022-4B87C421E959" name="Zawodnik__IDXv1">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B72B468E-3D82-49EC-DCDF-924F3E1AF403</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="127B7B1D-CA59-B35E-E02C-56134EF1D874"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3444C87-97DF-1705-0AE1-09CC230F9B67" name="Zawodnik__IDXv2">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DDFF4EA5-6D92-4805-47DF-0F85DA632CEE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="010AA398-58EA-6344-D85D-2A6F2B4D90C4"/>
+<colUsage columnID="8D286C97-AEAA-C615-3333-1C3C834C203A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A6A6A0A-BFBE-F029-D35D-8C801C26BA20" name="Zawodnik_Zespoł_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>FC0C929E-3967-2119-2471-171CC043111C</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B89CCBDD-92E7-5AC9-25D4-31BC7E882C3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDD77148-0BFC-2373-AB79-40EF66A8C3BB" name="Zawodnik_Profil_Rynkowy_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>0EB06645-5EB6-E615-704E-11D37DCA912A</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4C1C156-F382-9A67-4C35-02328FBD6140"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18BE26CD-28C9-87A5-F029-7C1F0CE88AF5" name="Zawodnik_Manager_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>B72B468E-3D82-49EC-DCDF-924F3E1AF403</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="127B7B1D-CA59-B35E-E02C-56134EF1D874"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65BD8300-83E9-1E3B-0A72-0E6B2E571FA2" name="Zawodnik_Kontrakt_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 20:27:52 UTC</createdTime>
+<generatorID>DDFF4EA5-6D92-4805-47DF-0F85DA632CEE</generatorID>
+<ownerDesignName>test2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="010AA398-58EA-6344-D85D-2A6F2B4D90C4"/>
+<colUsage columnID="8D286C97-AEAA-C615-3333-1C3C834C203A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

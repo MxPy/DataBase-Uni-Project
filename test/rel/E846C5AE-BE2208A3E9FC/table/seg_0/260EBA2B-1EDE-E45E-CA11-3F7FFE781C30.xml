@@ -1,0 +1,207 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="260EBA2B-1EDE-E45E-CA11-3F7FFE781C30" name="Zespol">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:42:19 UTC</createdTime>
+<generatorID>6459CC6E-34AB-AD89-B6FB-A73493F3DC31</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="5B4BF1A5-F01A-322E-84E2-D3C1D617FA23">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:42:19 UTC</createdTime>
+<generatorID>1C8FE2B2-E10C-0750-CCEC-AE212C68C4C8</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="punkty" id="97C061E0-5605-6304-10D1-7DA331EBB7D4">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:42:19 UTC</createdTime>
+<generatorID>009BF415-E222-A1F3-D05A-226EDACA467A</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sezon_nr_zesonu" id="940FED53-709F-166B-B2C3-2E19AA0FFBA3">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:42:19 UTC</createdTime>
+<generatorID>0CD0500C-8B9A-65B0-9BAD-1206315B9C53</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6852F377-7D23-0318-F999-2457A2853605" referredColumn="C780C823-D9B7-E747-CB20-B07CF065F960"/>
+</associations>
+</Column>
+<Column name="budzet" id="5AC91623-0DBA-B40F-0BE0-32DBF9D825ED">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:56:16 UTC</createdTime>
+<generatorID>4948A6CD-7343-9EA2-2272-381D80E1FC99</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bolid_Nazwa" id="F8A14E8B-D6BE-2B82-4D3A-DB4C86962950">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>4B1C4D18-394E-B782-6521-FC3E67DD8512</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2E3650B-5988-C29A-EE4B-57A5A200EC7B" referredColumn="95410F70-6B25-494A-9660-BFE7479354D6"/>
+</associations>
+</Column>
+<Column name="Dział_rozwojowy_Nazwa" id="6674BE07-B3AB-5BCB-2707-90F86F0D74FC">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>75975ECA-0D63-CAEE-4F06-7EF69BA9D7EA</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAF6DC3A-F705-D901-91FC-B14A975F4437" referredColumn="03493955-6254-2FCF-9F41-DA5004A95D5A"/>
+</associations>
+</Column>
+<Column name="Dyrektor_Nazwisko" id="D9DDA40E-6FC4-1794-04DB-DD6EE2FA23F8">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>CBBA3520-B0A1-84EC-C93D-14EE21E3137D</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3745BC5-646B-0CAD-654E-4E7ACA14FD04" referredColumn="91DCCAF0-436B-FB6E-CE2D-DFD699EEEE4C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D849A84-06DE-DF48-65D8-272AB81D3078" name="Zespol_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:42:19 UTC</createdTime>
+<generatorID>91D18174-D371-B902-3952-929B38CDBDD7</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B4BF1A5-F01A-322E-84E2-D3C1D617FA23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE35F0EF-736E-A818-A851-7307EDEC8588" name="Zespol__IDXv1">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:44:21 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>62C18775-C6FD-BD2E-B45D-8DB1D3AE82B5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="940FED53-709F-166B-B2C3-2E19AA0FFBA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08BA65D2-C6FF-D941-C039-93A365D043CE" name="Zespol__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C48AAC3C-2417-988C-9F61-31804BA9E1C7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6674BE07-B3AB-5BCB-2707-90F86F0D74FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCE78E28-CE3B-B698-DE0E-2A57F55E5254" name="Zespol__IDXv2">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B52CF814-EC4C-295D-D309-0698474772CE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D9DDA40E-6FC4-1794-04DB-DD6EE2FA23F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8A786F2-7EEA-3BDF-A5F1-A3425030DF9D" name="Zespol__IDXv3">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CB0A254E-4C83-34BD-638E-EDA33219A929</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F8A14E8B-D6BE-2B82-4D3A-DB4C86962950"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD2E7DAF-0039-F6F3-BBFF-83B6057A08BD" name="Zespol_Sezon_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 15:42:19 UTC</createdTime>
+<generatorID>62C18775-C6FD-BD2E-B45D-8DB1D3AE82B5</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="940FED53-709F-166B-B2C3-2E19AA0FFBA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08E3211D-7C9B-45BE-53E5-DF76CE3D5EC6" name="Zespol_Dział_rozwojowy_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>C48AAC3C-2417-988C-9F61-31804BA9E1C7</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6674BE07-B3AB-5BCB-2707-90F86F0D74FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5C4DA61-C505-41E2-AD9E-0A2F212CFC53" name="Zespol_Dyrektor_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>B52CF814-EC4C-295D-D309-0698474772CE</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9DDA40E-6FC4-1794-04DB-DD6EE2FA23F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2013FEB-BE55-3922-11B6-4E89E9F253C4" name="Zespol_bolid_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 16:18:43 UTC</createdTime>
+<generatorID>CB0A254E-4C83-34BD-638E-EDA33219A929</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8A14E8B-D6BE-2B82-4D3A-DB4C86962950"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
