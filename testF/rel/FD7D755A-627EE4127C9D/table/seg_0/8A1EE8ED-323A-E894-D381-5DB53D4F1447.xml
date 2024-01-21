@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A1EE8ED-323A-E894-D381-5DB53D4F1447" name="Centrum_Treningowe">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>9F799DFE-491C-B7F4-E85B-AA5661E6F281</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="FC62BA78-5575-3D51-5F57-875FF81FED5D">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>80B29675-3585-5932-EF32-98B503FB4762</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klub_Nazwa" id="7A28C727-DEED-07DF-553D-5D8EBC6DBCDF">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>1883FFA8-9B76-3D8F-B140-E2AED1ED6B28</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4E0320C-B403-88D2-B875-8B5986CF70BF" referredColumn="31509CC9-3B7C-9A43-8B3C-8521FB02D68A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACAA1DC2-0ED4-FC98-4228-EDFE053512D0" name="Centrum_Treningowe_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>1C55E760-C2DB-963A-65DA-1D0CB20C2FF0</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC62BA78-5575-3D51-5F57-875FF81FED5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A002B910-DB6B-6294-4634-B5128B3EA183" name="Centrum_Treningowe_Klub_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>D8FC8506-BD23-7531-DC26-54E8B180BFFC</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A28C727-DEED-07DF-553D-5D8EBC6DBCDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

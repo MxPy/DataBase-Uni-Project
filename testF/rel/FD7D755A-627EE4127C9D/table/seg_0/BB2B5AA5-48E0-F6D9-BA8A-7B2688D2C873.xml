@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB2B5AA5-48E0-F6D9-BA8A-7B2688D2C873" name="Kontrakt_Managera">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>3AEB5F20-FDD4-F65D-4B81-BD286C44A1DE</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="322CAE3B-B79F-1D0A-CBBF-C1F8B94392E6">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>88940281-9F9D-F0C3-4187-5B71CFD44562</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93735C93-E04C-A643-F3F3-ABDA0B5C7A90" referredColumn="1B1104AE-1379-31CB-CD9E-836FE75A287E"/>
+</associations>
+</Column>
+<Column name="Manager_id" id="361939D4-D6BD-824C-FE59-893E05E38FA6">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>B24CA9E5-D8DD-EC07-13C3-F9BDB49C24A4</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04C60264-F314-A4E5-48AF-05B396B95CDF" referredColumn="DB78C4C2-46E5-E88C-6629-C6E6A1FABB88"/>
+</associations>
+</Column>
+<Column name="Zawodnik_id" id="2829D859-C20D-EFC0-8B18-432D70DEACB0">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>70D2E1D1-B480-FAF8-5FC4-FF78304A47FF</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5647645D-17B5-4209-B643-D7BFA9CF1701" referredColumn="1B94A854-F7D7-2FD0-1097-8DC1CB2093E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26C68EFB-9449-8CA5-31F0-E9DCED1DA89B" name="Kontrakt_Managera_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>B9F572D0-B9F5-4A19-E363-11FBB3C3B969</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="322CAE3B-B79F-1D0A-CBBF-C1F8B94392E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0078D670-D45A-02BC-F604-B0352A2DA3A9" name="Kontrakt_Managera__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<ownerDesignName>testF</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2E8D416A-BF42-29F8-9E0C-81F2B460342D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2829D859-C20D-EFC0-8B18-432D70DEACB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6AB696F-AE84-0F28-418C-DD4A48AE652D" name="Kontrakt_Managera_Kontrakt_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>13271C76-3873-2E33-6BB5-80D557A4F2AB</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="322CAE3B-B79F-1D0A-CBBF-C1F8B94392E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CEAD4A8-A41B-6ACB-2C19-71A42C0C80E2" name="Kontrakt_Managera_Manager_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>6DABDA2E-8FAC-52A6-90DA-3B772C4F8B0C</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="361939D4-D6BD-824C-FE59-893E05E38FA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="335F930D-2D7C-2A60-C53F-A3302F1C793E" name="Kontrakt_Managera_Zawodnik_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>2E8D416A-BF42-29F8-9E0C-81F2B460342D</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2829D859-C20D-EFC0-8B18-432D70DEACB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

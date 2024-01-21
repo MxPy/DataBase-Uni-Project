@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E2C70E6E-843C-FE1A-1ECA-302722A84202" containerWithKeyObject="645E3E3D-54A1-6F44-2D7E-C590EE6BB90D" localFKIndex="9D65A948-9626-F304-A1EA-00B57ABFC1C5" name="Trener_Pacownik_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>104C97C6-7311-09EF-5CCB-C050E87FE811</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<referredTableLongName>Pacownik</referredTableLongName>
+<arc>087741A7-63D9-9CA1-6EE6-FD9BAEFA24B6</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7072C27E-3F20-7024-AD1E-C64246630A42</referredTableID>
+<keyObject>F020AE11-C49C-66B1-C952-52189E1FB678</keyObject>
+<referredKeyID>F020AE11-C49C-66B1-C952-52189E1FB678</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Trener</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="538EAB45-E9F0-2DF5-10CD-4F84BCD087A6" containerWithKeyObject="66A69000-DECF-8CC4-0190-2917A0C6210F" localFKIndex="BD591F89-7469-6088-FA75-43A006BB0C41" name="Kontrakt_Zawodnika_Kontrakt_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>B43E4339-9572-1755-84FC-D61D6C394D87</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<referredTableLongName>Kontrakt</referredTableLongName>
+<arc>E2F587E9-AA71-7499-4CAC-5EF6CC6B6AD3</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F4166863-D96F-0F02-F4AB-20CE3A973B7F</referredTableID>
+<keyObject>7A12D653-0425-514D-D587-56559CD11B92</keyObject>
+<referredKeyID>7A12D653-0425-514D-D587-56559CD11B92</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>erter</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

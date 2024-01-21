@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="674BC7EC-7060-A7EC-14B7-87273D145BC9" containerWithKeyObject="E5DEE6F5-B844-C590-5016-9193F08DEA5F" localFKIndex="AF38F866-D2AC-6764-E3EC-295201C70D5E" name="Nagroda_Klubowa_Nagroda_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>183257A6-DCE2-3F59-0FD4-49AA6D83A792</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<referredTableLongName>Nagroda</referredTableLongName>
+<arc>4920F239-8C80-BD05-EF93-30104A104932</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7AAC7FAF-18E0-C7E4-71F3-9B58699DB95E</referredTableID>
+<keyObject>F2F75F10-9600-6945-36C0-972ACEA6628D</keyObject>
+<referredKeyID>F2F75F10-9600-6945-36C0-972ACEA6628D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nazwa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Klubowa</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

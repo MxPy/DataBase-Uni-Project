@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8285EEC-2E2F-1552-57DC-D06D93546877" name="Pucharowe">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>CFA7E741-19D2-7E7B-77D5-BF3A374D0ED5</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="BC567B3E-A8CD-B927-688D-86905C22A61C">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>51FDDE3F-C5EA-0E7F-6A5A-ECBB9AADA165</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Info_Sezonowe_nr" id="332030F7-17FC-2D57-C2B2-A7A78D6E4AF6">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>EC6F83E7-6E17-D776-2822-180C98723635</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40DD087A-6CF5-19EF-2FD1-B3A5918BFAC8" referredColumn="EC6E6691-FC23-EFBE-18D8-9498E5F8EB4A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA4D8BC4-6588-49D5-C46E-75B71D544DF9" name="Pucharowe_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>AF4D4DAC-0933-51B4-7CE8-AC382DD3993B</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC567B3E-A8CD-B927-688D-86905C22A61C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="530BAC89-C690-65B9-B3B5-A3D4AA6B931C" name="Pucharowe_Info_Sezonowe_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>9E614384-6DC4-9D65-EA3E-438CDA105037</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="332030F7-17FC-2D57-C2B2-A7A78D6E4AF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E99A9DDF-7AC6-0D44-4593-FCC2E3107E13" name="Kontrakt_Trenera">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>9DAE149C-52ED-1AC8-51D9-AA1D07665D9A</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5C3A1B8E-B89C-AE00-E03D-C7903B83DA36">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>88940281-9F9D-F0C3-4187-5B71CFD44562</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85E355B9-294D-CFD8-4497-2DF945487990" referredColumn="1B1104AE-1379-31CB-CD9E-836FE75A287E"/>
+</associations>
+</Column>
+<Column name="Klub_Nazwa" id="8DB07D8B-8A8C-93DC-FEAF-B854F324AAF5">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>94CA092A-4696-EC3F-BDBA-ADB491D703DB</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="804F1DD0-11CE-6300-50AB-E0A12FD60441" referredColumn="31509CC9-3B7C-9A43-8B3C-8521FB02D68A"/>
+</associations>
+</Column>
+<Column name="Trener_id" id="74F25D35-28C7-20DB-FBB9-2F80989EFA01">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>456A2825-A655-76AA-929A-DB89DF9E8A48</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C09298FF-1427-A077-3257-DCE937DBE7C4" referredColumn="94E4B04E-CEAE-05F6-00B4-F71C884C26A7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FC54C4E-04CD-04D8-0928-ACE77D6B6C7C" name="Kontrakt_Trenera_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>B9F572D0-B9F5-4A19-E363-11FBB3C3B969</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C3A1B8E-B89C-AE00-E03D-C7903B83DA36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F66242A-ED5F-D310-A1C3-949B8DF4B4D9" name="Kontrakt_Trenera__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D7F928D6-D4AB-2EE8-8BC4-113236CB313A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="74F25D35-28C7-20DB-FBB9-2F80989EFA01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04706B03-206B-B3A2-CC01-ACA4858D8401" name="Kontrakt_Trenera_Kontrakt_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>649D46EF-0639-5864-E530-5B68967350D5</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C3A1B8E-B89C-AE00-E03D-C7903B83DA36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5299C349-F7AC-4485-3D1D-E7C41E262B79" name="Kontrakt_Trenera_Klub_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>5528B3F6-941D-ED0F-96FF-88C756D203BF</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DB07D8B-8A8C-93DC-FEAF-B854F324AAF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F815370-1FB8-035B-0237-9CA828DD4C2C" name="Kontrakt_Trenera_Trener_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>D7F928D6-D4AB-2EE8-8BC4-113236CB313A</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74F25D35-28C7-20DB-FBB9-2F80989EFA01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

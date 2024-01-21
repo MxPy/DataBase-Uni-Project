@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC287243-C1FE-B3E4-05A2-9BE76AA810CA" name="Sponosor_Klub">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<ordsAlias>relation_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sponsor_Nazwa" id="8650C313-05B7-C21B-55FC-D9117C6AF8C1">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22AFDEE1-C15C-51A3-515C-7FE8D418F333" referredColumn="56F33B8D-6245-09FB-26E9-ED3A4AAD944D"/>
+</associations>
+</Column>
+<Column name="Klub_Nazwa" id="B9040062-8AC3-FDFC-8B01-2B6FF0D62D4A">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD081855-C554-1C98-9884-9543D8311E57" referredColumn="31509CC9-3B7C-9A43-8B3C-8521FB02D68A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="090942D2-3D3F-E019-D2F7-63E8BD868D8F" name="Relation_17_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8650C313-05B7-C21B-55FC-D9117C6AF8C1"/>
+<colUsage columnID="B9040062-8AC3-FDFC-8B01-2B6FF0D62D4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="322216B3-B0F0-7BDC-AC0F-B698CAB189B7" name="Relation_17_Sponsor_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>6F9F38E7-1EDC-C7C8-27CF-8928B8B996B2</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8650C313-05B7-C21B-55FC-D9117C6AF8C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CACB552-013E-2735-2EDB-5C6C5FFFA025" name="Relation_17_Klub_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>6F9F38E7-1EDC-C7C8-27CF-8928B8B996B2</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9040062-8AC3-FDFC-8B01-2B6FF0D62D4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

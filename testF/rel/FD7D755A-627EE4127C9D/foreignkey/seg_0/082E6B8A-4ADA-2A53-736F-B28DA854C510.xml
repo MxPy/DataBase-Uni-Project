@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="082E6B8A-4ADA-2A53-736F-B28DA854C510" containerWithKeyObject="045BECF8-B5DB-3C86-B1C7-7CA0A032913A" localFKIndex="4D6AA1CA-7675-33F3-4A0E-D81FDDAC5BC6" name="Durektor_Pacownik_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>26E59077-954F-D1A1-129B-F68B40D4C620</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<referredTableLongName>Pacownik</referredTableLongName>
+<arc>087741A7-63D9-9CA1-6EE6-FD9BAEFA24B6</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7072C27E-3F20-7024-AD1E-C64246630A42</referredTableID>
+<keyObject>F020AE11-C49C-66B1-C952-52189E1FB678</keyObject>
+<referredKeyID>F020AE11-C49C-66B1-C952-52189E1FB678</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>234</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

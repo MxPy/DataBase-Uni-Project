@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="40DD087A-6CF5-19EF-2FD1-B3A5918BFAC8" containerWithKeyObject="E8285EEC-2E2F-1552-57DC-D06D93546877" localFKIndex="530BAC89-C690-65B9-B3B5-A3D4AA6B931C" name="Pucharowe_Info_Sezonowe_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>9E614384-6DC4-9D65-EA3E-438CDA105037</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<referredTableLongName>Info_Sezonowe</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BDA45DCF-6E10-A4AF-F875-5A96D91349C8</referredTableID>
+<keyObject>A15DE1DB-0ABA-99F7-0EEA-1DE58A4324C6</keyObject>
+<referredKeyID>A15DE1DB-0ABA-99F7-0EEA-1DE58A4324C6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

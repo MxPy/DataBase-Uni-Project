@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5DEE6F5-B844-C590-5016-9193F08DEA5F" name="Nagroda_Klubowa">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>B83CB0FC-EE3D-F51D-1D14-E4069B878C41</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="4073CD5B-2112-0CAF-34BE-D4799B03FB30">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>08F2B00A-8DE5-F507-DEB8-34DF9DDF1D9B</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="674BC7EC-7060-A7EC-14B7-87273D145BC9" referredColumn="83D27B7E-2094-AE4D-D908-78BB45D465A4"/>
+</associations>
+</Column>
+<Column name="Klub_Nazwa" id="3E9F4563-BB2E-3FF5-A78F-392B58E55997">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>36A0A124-E2E7-5B0A-66A5-EAF0B0D17BE8</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69DE1AE2-D573-38C6-FF73-ED832B191B47" referredColumn="31509CC9-3B7C-9A43-8B3C-8521FB02D68A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8724EF6-F4AA-FE73-811A-AEDE240C3D1A" name="Nagroda_Klubowa_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>DBB72A06-FC1E-D238-6695-5D2AE1B7216D</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4073CD5B-2112-0CAF-34BE-D4799B03FB30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF38F866-D2AC-6764-E3EC-295201C70D5E" name="Nagroda_Klubowa_Nagroda_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>183257A6-DCE2-3F59-0FD4-49AA6D83A792</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4073CD5B-2112-0CAF-34BE-D4799B03FB30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD983D11-D742-3268-C89E-7C2E5260EE21" name="Nagroda_Klubowa_Klub_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>515A42DF-32CE-7555-1B1D-FC82D7EB3402</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E9F4563-BB2E-3FF5-A78F-392B58E55997"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

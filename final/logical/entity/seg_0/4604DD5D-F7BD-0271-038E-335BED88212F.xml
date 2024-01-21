@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4604DD5D-F7BD-0271-038E-335BED88212F" name="Stadion">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 11:32:09 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nazwa" id="D223F2B1-C1A4-0B57-10F0-80DC7D61607C">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 11:32:09 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adres" id="91B725A0-B3A3-F8CF-1C30-D88CC135F8A4">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 18:07:19 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="liczba_miejsc" id="DCAFFF46-B276-4B55-6D39-AB36D35528DF">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 18:07:33 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_otwarcia" id="36C35163-30A3-B8BA-F15E-3FF3CA99F807">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 18:49:40 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B1618E3B-1770-71D7-0945-35BA0C8FACB9" name="Klub PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 11:32:09 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D223F2B1-C1A4-0B57-10F0-80DC7D61607C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

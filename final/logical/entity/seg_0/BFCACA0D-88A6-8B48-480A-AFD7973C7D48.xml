@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BFCACA0D-88A6-8B48-480A-AFD7973C7D48" name="Ligowe">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 22:55:00 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr" id="499482F9-2CFC-E330-6D6C-7D3A552EB5BF">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 14:04:38 UTC</createdTime>
+<generatorID>E18B7B00-41F7-DDE1-D0DE-F644E246B5FE</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<referedAttribute>35D7586F-E63E-9503-0EDD-D806EADB107E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="miejsce" id="2C13AA34-1EB9-5F34-D04E-1C6254EE43E2">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 18:34:59 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="punkty" id="8C01ED36-0CFB-E615-E8C7-07B5ECF41899">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 18:35:17 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Remisy" id="19293CE8-5AB1-CB34-A798-1AD566DE1DC7">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 18:53:07 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zwyciestwa" id="FBCF33B2-1BF1-8E90-B0E9-C0D1B2E688A9">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 18:53:27 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Przegrane" id="0A995AD6-287A-9DFD-F7FF-D3834A80A1BC">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 18:53:28 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="271D506B-5AC8-465F-618B-9E9ACE3B4AD8" name="Nagroda_Osobista">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 11:32:44 UTC</createdTime>
+<ownerDesignName>testF</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>4F95B2B5-6584-E675-1E1A-A393FEF7C4B6</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="0FBCC4D0-0751-B9C6-ED74-948CED50A6EE">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 14:06:39 UTC</createdTime>
+<generatorID>E61498B6-F02C-AA10-318B-FEE7DBA912F0</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<referedAttribute>6FE5CB3D-DFA7-667B-888F-4DFD15CBC1DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

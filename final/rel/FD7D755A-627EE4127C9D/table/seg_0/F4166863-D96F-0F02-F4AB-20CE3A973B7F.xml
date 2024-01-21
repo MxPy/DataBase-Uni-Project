@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4166863-D96F-0F02-F4AB-20CE3A973B7F" name="Kontrakt">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>893B78BE-06C7-A9B1-08D5-1E2513E6E3A1</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1B1104AE-1379-31CB-CD9E-836FE75A287E">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>88940281-9F9D-F0C3-4187-5B71CFD44562</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="typ" id="5E758980-4E18-5B2E-53C1-4AF3F7D0B262">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>B2970798-ED18-8BD7-7BD5-B2CFC1B557E3</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_poczatku" id="3BD26613-DD8B-77D6-457A-716AD2CEA55F">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 18:58:35 UTC</createdTime>
+<generatorID>46E38D98-17FB-1347-1C3D-490B0BFA9538</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_zakonczenia" id="1C0F8DB8-70CE-993A-E4A3-AE114F22521C">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 18:58:35 UTC</createdTime>
+<generatorID>6C4247C4-1B1D-BCF4-E363-7E5DBD5E0426</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wynagrodzenie" id="9C13C242-DA18-7D3D-D8BD-7E9FA007A729">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 18:58:35 UTC</createdTime>
+<generatorID>EBA15630-1B36-8DC5-FEB2-2C458EC279BB</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A12D653-0425-514D-D587-56559CD11B92" name="Kontrakt_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>B9F572D0-B9F5-4A19-E363-11FBB3C3B969</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B1104AE-1379-31CB-CD9E-836FE75A287E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

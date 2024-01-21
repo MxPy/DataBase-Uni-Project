@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AA92CAB-047D-BD65-5937-7C46C1669473" name="Profi">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>9617A7A1-A877-5448-8AF5-F0CB1FEC8E4A</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zawodnik_id" id="6FBAE86D-88DA-EC81-39ED-113CE90C113B">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>C4945457-9CDD-02AD-C127-505268CFD47B</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13C2B688-BEFC-A863-438C-A9D401E78CA1" referredColumn="1B94A854-F7D7-2FD0-1097-8DC1CB2093E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52B95979-D4A3-05D2-4C0F-BEA88F03E106" name="Profi__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<ownerDesignName>testF</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CBD78EB4-A867-98D4-7077-002576DD31CA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6FBAE86D-88DA-EC81-39ED-113CE90C113B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EB67E84-A9DA-F45D-725F-7031488AF231" name="Profi_Zawodnik_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>CBD78EB4-A867-98D4-7077-002576DD31CA</generatorID>
+<ownerDesignName>testF</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FBAE86D-88DA-EC81-39ED-113CE90C113B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
