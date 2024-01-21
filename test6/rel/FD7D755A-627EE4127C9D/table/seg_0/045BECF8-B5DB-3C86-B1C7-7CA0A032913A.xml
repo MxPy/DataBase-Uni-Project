@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="045BECF8-B5DB-3C86-B1C7-7CA0A032913A" name="Durektor">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>4A11F0A0-FFB3-35F9-D649-1272380A726B</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D09541FD-87DC-D269-7EB8-D8283D5F2D7F">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>6FE5CB3D-DFA7-667B-888F-4DFD15CBC1DB</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="082E6B8A-4ADA-2A53-736F-B28DA854C510" referredColumn="697447EF-8497-A07A-DEBC-2B9CF8DFE709"/>
+</associations>
+</Column>
+<Column name="Klub_Nazwa" id="AA72255B-F321-531B-CD9C-F370FB9C339A">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>A9B61D2E-1C9B-7723-13E7-788C42447FC0</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="251A60DB-5D97-FA3E-F8B8-6A60E5CA298E" referredColumn="31509CC9-3B7C-9A43-8B3C-8521FB02D68A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2CECFACC-9BFD-A779-2B3E-ECF8EC95FB07" name="Durektor_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>A253001F-AF7D-22F1-F79E-0DE0F8EDDE96</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D09541FD-87DC-D269-7EB8-D8283D5F2D7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D311262-8745-A046-76AD-BDB1101ED5CA" name="Durektor__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<ownerDesignName>test6</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D50DB674-F775-D0B2-C32E-8FCCB0C5C609</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AA72255B-F321-531B-CD9C-F370FB9C339A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D6AA1CA-7675-33F3-4A0E-D81FDDAC5BC6" name="Durektor_Pacownik_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>26E59077-954F-D1A1-129B-F68B40D4C620</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D09541FD-87DC-D269-7EB8-D8283D5F2D7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E94FC4D-96FB-73CE-EF53-789B2C96B423" name="Durektor_Klub_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>D50DB674-F775-D0B2-C32E-8FCCB0C5C609</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA72255B-F321-531B-CD9C-F370FB9C339A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9719975B-7C5E-8B48-0E29-C2FF7BE49832" name="Cechy">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 13:38:23 UTC</createdTime>
+<ownerDesignName>test5</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="B28CB5DE-E016-1568-61EA-9CA611B5A5CB">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 13:46:15 UTC</createdTime>
+<generatorID>9422D31D-82CE-2570-E5F5-955AF9F2A6F4</generatorID>
+<ownerDesignName>test5</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<referedAttribute>6FE5CB3D-DFA7-667B-888F-4DFD15CBC1DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

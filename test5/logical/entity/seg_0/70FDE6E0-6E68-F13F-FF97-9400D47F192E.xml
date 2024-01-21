@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70FDE6E0-6E68-F13F-FF97-9400D47F192E" name="Trener">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 13:37:50 UTC</createdTime>
+<ownerDesignName>test5</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>9C364C95-6671-93B4-065F-A3E84952DF25</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nazwa" id="63532ADC-0040-5B20-B4D4-13859113D9FA">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 14:07:47 UTC</createdTime>
+<generatorID>B00AC6BF-16F4-F1F3-4602-1C387AE91C56</generatorID>
+<ownerDesignName>test5</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<referedAttribute>E6AA557F-08BC-86D1-ECDE-D8F84113FFB3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="159E682A-7F27-2586-7506-0F64418B65E1">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 14:08:07 UTC</createdTime>
+<generatorID>D7F928D6-D4AB-2EE8-8BC4-113236CB313A</generatorID>
+<ownerDesignName>test5</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<referedAttribute>88940281-9F9D-F0C3-4187-5B71CFD44562</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

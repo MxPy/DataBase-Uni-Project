@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="893B78BE-06C7-A9B1-08D5-1E2513E6E3A1" name="Kontrakt">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 22:40:27 UTC</createdTime>
+<ownerDesignName>test6</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="88940281-9F9D-F0C3-4187-5B71CFD44562">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 22:40:35 UTC</createdTime>
+<ownerDesignName>test6</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="typ" id="B2970798-ED18-8BD7-7BD5-B2CFC1B557E3">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 14:17:22 UTC</createdTime>
+<ownerDesignName>test6</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9F572D0-B9F5-4A19-E363-11FBB3C3B969" name="kontrakt PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-20 22:40:52 UTC</createdTime>
+<ownerDesignName>test6</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88940281-9F9D-F0C3-4187-5B71CFD44562</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

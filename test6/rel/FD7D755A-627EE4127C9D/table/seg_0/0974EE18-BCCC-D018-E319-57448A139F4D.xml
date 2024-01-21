@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0974EE18-BCCC-D018-E319-57448A139F4D" name="Cechy">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>9719975B-7C5E-8B48-0E29-C2FF7BE49832</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zawodnik_id" id="7C416CEF-B13A-7607-6693-E3ED7C9D48F4">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>B28CB5DE-E016-1568-61EA-9CA611B5A5CB</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F12CA058-4175-D171-5CE0-C6B194B91D78" referredColumn="1B94A854-F7D7-2FD0-1097-8DC1CB2093E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB8B7ADB-27EE-3BEC-6C50-CAE520EE8DEC" name="Cechy__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<ownerDesignName>test6</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9422D31D-82CE-2570-E5F5-955AF9F2A6F4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7C416CEF-B13A-7607-6693-E3ED7C9D48F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4AF27FE-D976-275E-2B21-17AC22256FA7" name="Cechy_Zawodnik_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>9422D31D-82CE-2570-E5F5-955AF9F2A6F4</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C416CEF-B13A-7607-6693-E3ED7C9D48F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

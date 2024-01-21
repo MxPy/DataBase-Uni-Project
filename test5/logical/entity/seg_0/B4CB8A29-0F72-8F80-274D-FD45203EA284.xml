@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4CB8A29-0F72-8F80-274D-FD45203EA284" name="Kontrakt_Zawodnika">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 11:34:05 UTC</createdTime>
+<ownerDesignName>test5</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>893B78BE-06C7-A9B1-08D5-1E2513E6E3A1</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C188093F-3C52-F3DD-6329-CFBA7733D785">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 14:06:47 UTC</createdTime>
+<generatorID>D6703C24-CA08-CA3C-E85E-21F2A340F630</generatorID>
+<ownerDesignName>test5</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<referedAttribute>6FE5CB3D-DFA7-667B-888F-4DFD15CBC1DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="3EFE9D53-B1F5-A524-84D8-BCE72FD7AC76">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 14:06:54 UTC</createdTime>
+<generatorID>348C6995-0D9A-082C-38EE-22331CAED020</generatorID>
+<ownerDesignName>test5</ownerDesignName>
+<engineerTo>
+<item key="FD7D755A-AE95-E8E9-EC9D-627EE4127C9D" value="true"/>
+</engineerTo>
+<referedAttribute>E6AA557F-08BC-86D1-ECDE-D8F84113FFB3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

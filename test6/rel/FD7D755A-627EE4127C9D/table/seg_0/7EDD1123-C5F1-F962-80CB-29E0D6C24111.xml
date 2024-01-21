@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EDD1123-C5F1-F962-80CB-29E0D6C24111" name="Zespl">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>72EC018E-C282-04E3-9E9D-16742F563362</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr" id="75475B6A-4629-AED5-350E-25209DC3E5AE">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>1A277D32-F88A-4B73-F635-ACFE42B67048</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klub_Nazwa" id="5D390F9C-6E0E-C5F6-842D-3531E1ED9A2D">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>215771B9-DD22-4A03-DDD3-CEFFA8117328</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04D33C3D-ADE6-A608-42EC-27D1F29429F2" referredColumn="31509CC9-3B7C-9A43-8B3C-8521FB02D68A"/>
+</associations>
+</Column>
+<Column name="Trener_id" id="886F754E-573F-76AA-2C37-8DD3857AF9E8">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>68311DF1-2AC6-DD1D-1D96-35C8571B3812</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2104E902-54E5-3662-418F-94B72482696E" referredColumn="94E4B04E-CEAE-05F6-00B4-F71C884C26A7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D8A1C51-C40D-AC95-57C0-F5E9942E1B47" name="Zespl_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>49B6FA2E-0C27-77B2-4020-B5DF801E8CA4</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75475B6A-4629-AED5-350E-25209DC3E5AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5D75CED-0224-0CB3-5865-0E6E7D224CDF" name="Zespl_Klub_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>C79D0E1A-B433-CE65-111B-952CA2AA485C</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D390F9C-6E0E-C5F6-842D-3531E1ED9A2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32EF82A5-C3CB-9016-3BE9-F4A5C433D593" name="Zespl_Trener_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:21:55 UTC</createdTime>
+<generatorID>5C21A2F6-D23F-9627-4132-ADE69789430F</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="886F754E-573F-76AA-2C37-8DD3857AF9E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

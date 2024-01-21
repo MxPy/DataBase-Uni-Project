@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4AE1F9A-D7C8-E8C3-8A28-099AC8876DE1" containerWithKeyObject="C255561D-E8C6-4E64-BED8-054478D25B9F" localFKIndex="1C33BE75-47C2-693E-6AE7-75D01802C36E" name="Manager_Pacownik_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>847F6330-C59F-2E53-5082-D843F7216570</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<referredTableLongName>Pacownik</referredTableLongName>
+<arc>087741A7-63D9-9CA1-6EE6-FD9BAEFA24B6</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7072C27E-3F20-7024-AD1E-C64246630A42</referredTableID>
+<keyObject>F020AE11-C49C-66B1-C952-52189E1FB678</keyObject>
+<referredKeyID>F020AE11-C49C-66B1-C952-52189E1FB678</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>werew</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

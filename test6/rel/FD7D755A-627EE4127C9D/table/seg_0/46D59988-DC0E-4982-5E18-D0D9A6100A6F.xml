@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46D59988-DC0E-4982-5E18-D0D9A6100A6F" name="Nagroda_Osobista">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>271D506B-5AC8-465F-618B-9E9ACE3B4AD8</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="AD3C4398-F5D5-33F0-F8E1-35F3024A2368">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>08F2B00A-8DE5-F507-DEB8-34DF9DDF1D9B</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A71B3714-C4D5-E00F-453C-E3AB6EC009FB" referredColumn="83D27B7E-2094-AE4D-D908-78BB45D465A4"/>
+</associations>
+</Column>
+<Column name="Zawodnik_id" id="6BD9C45E-6A52-BA9C-99A0-560BB30E5E92">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>0FBCC4D0-0751-B9C6-ED74-948CED50A6EE</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFC10301-405B-FA91-B822-66669D446239" referredColumn="1B94A854-F7D7-2FD0-1097-8DC1CB2093E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0B230F3-0385-2318-B201-9501493BCBD6" name="Nagroda_Osobista_PK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>DBB72A06-FC1E-D238-6695-5D2AE1B7216D</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD3C4398-F5D5-33F0-F8E1-35F3024A2368"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF595FA9-A7C3-B9F4-0955-F601E61391D6" name="Nagroda_Osobista_Nagroda_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>B9FF77AF-3A15-0DA0-71AC-75751C966A0B</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD3C4398-F5D5-33F0-F8E1-35F3024A2368"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CECD72D-2D88-AD46-0901-DDD73AD6F073" name="Nagroda_Osobista_Zawodnik_FK">
+<createdBy>PC</createdBy>
+<createdTime>2024-01-21 15:08:36 UTC</createdTime>
+<generatorID>E61498B6-F02C-AA10-318B-FEE7DBA912F0</generatorID>
+<ownerDesignName>test6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD9C45E-6A52-BA9C-99A0-560BB30E5E92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
